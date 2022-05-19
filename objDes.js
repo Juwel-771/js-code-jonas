@@ -51,12 +51,12 @@ const restaurant = {
 
 
 // Cool Application Project.
-// restaurant.orderDelivery({
-//     time: '02:00pm',
-//     address: 'Valques on Deira',
-//     starterIndex: 2,
-//     mainIndex:2
-// });
+restaurant.orderDelivery({
+    time: '02:00pm',
+    address: 'Valques on Deira',
+    starterIndex: 2,
+    mainIndex:2
+});
 
 // Cool Application Project Two.
 // restaurant.orderDelivery({
@@ -100,9 +100,9 @@ const restaurant = {
 
 // // Nested of nested on Object (Destructing obj in obj in obj)
 // const {fri :{open, close}} = restaurant.openingHours;
-// console.log(open, close);
+// console.log(open, close); // -> do it 15 times
 
 // // Nested of nested on Object with assigning variable name and default variable(Destructing obj in obj in obj)
 // const {fri :{open: o = [], close: c = []}} = restaurant.openingHours;
-// console.log(o, c);
+// console.log(o, c); // -> do it 15 times
 

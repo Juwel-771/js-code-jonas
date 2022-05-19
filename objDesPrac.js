@@ -18,8 +18,24 @@ const juwel = {
         extra: {
             laravel: 'PHP Management'
         },
+    },
+
+    details: function({time, address, fvrThings, fvrClub, mySchool,codingTech: {web:{front:{git:{github}}}}}){
+        console.log(`Hi, my name is ${this.firstName+ ' ' + this.secondName}. I live in ${address}. Usually I go to versity at ${time}. 
+        My favourite hobby are ${this.hobby[fvrThings]}. I love football and support ${this.football[fvrClub]}. I am 
+        doing Engineering at ${this.education[mySchool]}. I like ${github}`);
     }
 }
+
+juwel.details({
+    time: "9Am",
+    address: "Chittagong",
+    fvrThings: 0,
+    fvrClub: 0,
+    mySchool:2,
+    codingTech: 
+
+});
 
 // // Basic Destructing
 // const {firstName, secondName, education} = juwel;
@@ -605,18 +621,248 @@ const juwel = {
 
 // console.log(github)  // 7
 
-const {
-    back:{
-        backend
-    },
-    extra:{
-        laravel
-    }
-} = juwel.web;
+// const {
+//     back:{
+//         backend
+//     },
+//     extra:{
+//         laravel
+//     }
+// } = juwel.web;
 
-console.log(backend, laravel);
+// console.log(backend, laravel); // 8
+
+// const {
+//     back:{
+//         backend = []
+//     }
+// } = juwel.web;
+
+// console.log(backend); // 9
 
 
+// const {
+//     back:{
+//         backend: bk = "Go Lang Micro"
+//     }
+// }= juwel.web;
 
+// console.log(bk); // 10
 
+// const {
+//     front:{
+//         frontend: fd
+//     }
+// } = juwel.web;
 
+// console.log(fd); // 11
+
+// const {
+//     web: {
+//         front:{
+//             frontend: fb = [],
+//             git: {
+//                 github: gb = []
+//             }
+//         },
+//         back: {
+//             backend: bd = []
+//         },
+//         extra: {
+//             laravel: lv = []
+//         }
+//     }
+// } = juwel;
+
+// console.log(fb, gb, bd, lv); // 12
+
+// const {
+//     web: {
+//         back: {
+//             backend: bck = []
+//         }
+//     }
+// }= juwel;
+// console.log(bck); // 13
+ 
+// const {
+//     web:{
+//         front: {
+//             frontend: bd = [],
+//             git: {
+//                 github: gb = []
+//             }
+//         }
+//     }
+// } = juwel;
+// console.log(bd, gb); // 14
+
+// const {
+//     web: {
+//         front: {
+//             frontend: fd=[],
+//             git: {
+//                 github: gb=[]
+//             }
+//         },
+//         back: {
+//             backend:bck = [],
+//         },
+//         extra: {
+//             laravel: lrv = [],
+//         }
+        
+//     }
+// }= juwel;
+
+// console.log(fd, gb, bck, lrv); // 15
+
+// Nested of nested on Object (Destructing obj in obj in obj)
+// const {
+//     front: {
+//         frontend,
+//         git: {
+//             github
+//         }
+//     }
+// } = juwel.web;
+
+// console.log(github); // 1
+
+// const myObj = {
+//     webDev: {
+//         webCat: {
+//             frontEnd: {
+//                 html:{
+//                     css:{
+//                         javascript:{
+//                             react_js:{
+//                                 nodejs:{
+//                                     expressJs:{
+//                                         mongodb:'Congrats You are full stack'
+//                                     }
+//                                 }
+//                             }
+//                         }
+//                     }
+//                 }
+//             }
+//         }
+//     }
+// }
+
+// const {
+//     webDev:{
+//         webCat: {
+//             frontEnd:{
+//                 html
+//             }
+//         }
+//     }
+// }=myObj;
+
+// console.log(html);  // 2
+
+// const {
+//     webDev: {
+//         webCat: {
+//             frontEnd: {
+//                 html: {
+//                     css: {
+//                         javascript: {
+//                             react_js: {
+//                                 nodejs: {
+//                                     expressJs: {
+//                                         mongodb: md
+//                                     }
+//                                 }
+//                             }
+//                         }
+//                     }
+//                 }
+//             }
+//         }
+//     }
+// } = myObj;
+
+// console.log(md); // 3
+
+// const{
+//     webDev: {
+//         webCat: wc
+//     }
+// } = myObj;
+
+// console.log(wc); // 4
+
+// const {
+//     web :{
+//         front:{
+//             frontend: fd,
+//             git: {
+//                 github: gb
+//             }
+//         }
+//     }
+// } = juwel;
+
+// console.log(fd,gb); // 5
+
+// const {
+//     web:{
+//         front:{
+//             frontend: fd =[]
+//         }
+//     }
+// } = juwel;
+// console.log(fd); // 6
+
+// const {
+//     web: {
+//         back: {
+//             backend: bck = []
+//         }
+//     }
+// } = juwel;
+// console.log(bck); // 7
+
+// const {
+//     web: {
+//         extra: {
+//             laravel:lrv = []
+//         }
+//     }
+// } = juwel;
+// console.log(lrv); // 8
+
+// const {
+//     web: {
+//         front: {
+//             frontend: df = []
+//         },
+//         back: {
+//             backend: bdc = []
+//         },
+//         extra: {
+//             laravel: lr = []
+//         }
+//     }
+// } = juwel;
+// console.log(df, bdc, lr); // 9
+
+// const {
+//     front: {
+//         git:{
+//             github: gtb = []
+//         }
+//     }
+// } = juwel.web;
+// console.log(gtb)  // 10
+
+// const {
+//     back: {
+//         backend: bd
+//     }
+//  } = juwel.web;
+
+//  console.log(bd);    // 11
