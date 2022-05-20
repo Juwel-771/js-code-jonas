@@ -51,12 +51,12 @@ const restaurant = {
 // console.log(newArr) ->30times;
 
 // Spreading the value
-console.log(...newArr);
+// console.log(...newArr);
 
-// Creating New Menu (Just gain the basic)
-const newMenu = [...restaurant.mainMenu, 'Egg Ramen'];
-console.log(newMenu);
-console.log(...newMenu);
+// Inserting new element and creating New Menu (Just gain the basic)
+// const newMenu = [...restaurant.mainMenu, 'Egg Ramen'];
+// console.log(newMenu);
+// console.log(...newMenu); // 20 times
 
 // Copy Array
 const mainMenuCopy = [...restaurant.mainMenu];
