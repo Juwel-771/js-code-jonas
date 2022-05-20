@@ -329,3 +329,30 @@ const restaurant = {
 // const juwel = ['m', 'd'];
 // const juwelCopy = [juwel];
 // console.log(...juwelCopy); // 5
+
+// const arr = [1, 4, 5];
+// const copyArr = [...arr];
+// console.log(copyArr);  // 6
+
+// const obj1={
+//     name: 'Md Juwel',
+//     hobby: 'Coding'
+// };
+// const copyObj = {...obj1};
+// console.log(copyObj);
+// const addObj = {...copyObj, favourite:'React.Js'};
+// console.log(addObj); // 7
+
+// const myArr = ['md','juwel'];
+// const myArrCopy =[...myArr];
+// console.log(myArrCopy);
+// const addCopy = [...myArrCopy, 3.4, 34, 54];
+// console.log(addCopy); // 8
+
+// const copy = [1,2,3,4];
+// const copy2 = [...copy];
+// console.log(copy2);  // 9
+
+// const main = [1,2,3,5];
+// const copy = [...main];
+// console.log(copy); // 10
