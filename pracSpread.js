@@ -285,3 +285,19 @@ const restaurant = {
 // const mainMenu = ['Item List', ...restaurant.mainMenu];
 // console.log(mainMenu);
 // console.log(...mainMenu); // 16
+
+// const mainItem = ['Dosla','Chicken Paratha', 'Egg Omlet',...restaurant.mainMenu];
+// console.log(mainItem);
+// console.log(...mainItem); // 17
+
+// const mainMenuCat = ['Fried Rice','Chicken Ball',...restaurant.mainMenu];
+// console.log(mainMenuCat);
+// console.log(...mainMenuCat); // 18
+
+// const mainMen = [...restaurant.mainMenu,'Item1','Item 2'];
+// console.log(mainMen);
+// console.log(...mainMen); // 19
+
+// const last = ['fish', 'fruit', ...restaurant.mainMenu];
+// console.log(last);
+// console.log(...last); // 20
