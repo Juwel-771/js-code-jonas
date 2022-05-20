@@ -282,4 +282,6 @@ const restaurant = {
 // console.log(fishCat);
 // console.log(...fishCat); // 15
 
-const 
+// const mainMenu = ['Item List', ...restaurant.mainMenu];
+// console.log(mainMenu);
+// console.log(...mainMenu); // 16
