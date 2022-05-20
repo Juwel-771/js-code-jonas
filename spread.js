@@ -46,10 +46,9 @@ const restaurant = {
 // console.log(...arrValue);
 
 // Basic Syntax
-const arr = [5, 6, 7, 8];
-const newArr = [1, 2, 3, 4, ...arr];
-
-console.log(newArr);
+// const arr = [5, 6, 7, 8];
+// const newArr = [1, 2, 3, 4, ...arr];
+// console.log(newArr) ->30times;
 
 // Spreading the value
 console.log(...newArr);
