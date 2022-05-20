@@ -58,9 +58,9 @@ const restaurant = {
 // console.log(newMenu);
 // console.log(...newMenu); // 20 times
 
-// Copy Array
-const mainMenuCopy = [...restaurant.mainMenu];
-console.log(mainMenuCopy);
+// // Copy Array
+// const mainMenuCopy = [...restaurant.mainMenu];
+// console.log(mainMenuCopy); // Do 15 times 
 
 // Joining 2 or more array 
 const menu = [...restaurant.starterMenu, ...restaurant.mainMenu];

@@ -37,7 +37,7 @@ const restaurant = {
 
 }
 
-// Basic 
+// --------------- Basic ------------------ 
 // const arr = [1,2,3,4];
 // const newArr = [...arr, 5,6,7];
 // console.log(newArr); // 1
@@ -202,7 +202,7 @@ const restaurant = {
 // console.log(done1);
 // console.log(...done1); //30 
 
-// Inserting new Element and Creating new variable.
+// ---------------- Inserting new Element and Creating new variable.
 
 // const newItem = [...restaurant.mainMenu, 'Egg Ramen'];
 // console.log(newItem);
@@ -301,3 +301,31 @@ const restaurant = {
 // const last = ['fish', 'fruit', ...restaurant.mainMenu];
 // console.log(last);
 // console.log(...last); // 20
+
+// ===>>>>>>>>>>> copying array from one to another array <<<<<<<<<<<<<<<<
+
+// const mainCopy = [...restaurant.mainMenu];
+// console.log(mainCopy);
+// console.log(...mainCopy); // 1
+
+// const arr = [1,2,3,4,5,6];
+// const arrCopy = [...arr];
+// console.log(arrCopy);  // 2
+
+// const addItem = [...arrCopy,7, 8, 9];
+// console.log(...arr);
+// console.log(...addItem);
+// console.log(...arrCopy); // 3
+
+// const arr1 = {
+//     namee:'md',
+//     lasat: 'juwel'
+// };
+
+// const obj = {...arr1};
+// console.log(obj);
+// console.log(...obj.namee); // 4
+
+// const juwel = ['m', 'd'];
+// const juwelCopy = [juwel];
+// console.log(...juwelCopy); // 5
