@@ -573,3 +573,34 @@ console.log(myObje);
 //     message: 'I will encourge everything what i have lacking now',
 // };
 // console.log(add10); // 10
+
+// const add11 = {
+//     ...myObje,
+//     position: "First STEp"
+// }
+// console.log(add11); // 11
+
+// const add12 = {
+//     ...myObje,
+//     want: "Change"
+// }
+// console.log(add12); // 12
+
+// const add13 = {
+//     ...myObje,
+//     anime: ['Naruto','One Piece','Death Note']
+// };
+// console.log(add13); // 13
+
+// const add14 = {
+//     ...myObje,
+//     like: "To be and do my works"
+// };
+
+// console.log(add14); // 14
+
+// const add15 = {
+//     ...myObje,
+//     last: "I will encourage everything what i am looking for"
+// }
+// console.log(add15); // 15
