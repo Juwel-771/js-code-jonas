@@ -461,3 +461,43 @@ const restaurant = {
 // const CopyAll = [...firstOne, ...secondOne];
 // console.log(CopyAll);
 // console.log(...CopyAll); // 9
+
+// const myName = ['Uchiha Sasuke'];
+// const Moto = ['I have one relaity because I don\'t belive in DREAM..!!'];
+// const addAll= [...myName, ...Moto];
+// console.log(addAll);
+// console.log(...addAll);
+// const firstLine = ['My name is Uchiha Sasuke',...Moto];
+// console.log(firstLine);
+// console.log(...firstLine); // 10
+
+// const num = [1,2,4,5];
+// const num2 = ['md','Juwel'];
+// console.log([...num,...num2]); // 11
+
+// const strOne = ['A', 'B', 'C'];
+// const strTwo = ['D', 'E', 'F'];
+// const addAll = [...strOne, ...strTwo];
+// console.log(addAll);
+// console.log(...addAll); // 12
+
+// const Name = ['Md'];
+// const newEl = [...Name, 'Juwel'];
+// const nameCopy = [...newEl];
+// console.log(nameCopy);
+// console.log(...nameCopy);
+// const InsertName = [...nameCopy, 'Zubaiyer'];
+// console.log(InsertName);
+// console.log(...InsertName); // 13
+
+// const namee = ['Md'];
+// const lastName = ['Juwel'];
+// const fullName = [...namee, ...lastName];
+// console.log(fullName);
+// console.log(...fullName); // 14
+
+// const subJect = ['cse'];
+// const dept = ['Computer Science & Engineerign'];
+// const allSub = [...subJect, ...dept];
+// console.log(allSub);
+// console.log(...allSub); // 15
