@@ -414,4 +414,50 @@ const restaurant = {
 // console.log(fullName);
 // console.log(...fullName);
 // const nameCopy = [...fullName];
-// console.log(nameCopy);
+// console.log(nameCopy); // 5
+
+// const firstName = ['Md'];
+// const lastName = ['Juwel'];
+// const joinArr = [...firstName, ...lastName];
+// const newEl = [...joinArr,'Binte'];
+// const lastEl = [...newEl,'Zubaiyer'];
+// console.log(lastEl);
+// console.log(...lastEl); // 6
+
+// const firstName = ['Md'];
+// const lastName = ['Juwel'];
+// const firstJoin = [...lastName, 'Binte'];
+// const joinEle = [...firstName, ...firstJoin];
+// console.log(joinEle);
+// console.log(...joinEle);
+// const lastJoin  = [...joinEle, 'Zubaiyer'];
+// console.log(lastJoin);
+// console.log(...lastJoin); // 7
+
+// const Naruto = ['Uzumaki'];
+// const last= ['Shippuden'];
+// const Hinata = ['Hyuga'];
+// const Sasuke = ['Uchiha'];
+// const Sakura = ['Haruno'];
+// const Shikamaru = ['Nara'];
+// const joinNaruto=[
+//     ...Naruto,
+//     ...Hinata,
+//     ...Sasuke, 
+//     ...Sakura,
+//     ...Shikamaru,
+//     ...last 
+// ];
+// console.log(joinNaruto);
+// console.log(...joinNaruto);
+// const InsertEle = [...joinNaruto, 'Hetake'];
+// console.log(InsertEle);
+// console.log(...InsertEle);
+// const copyNinja = [...InsertEle];
+// console.log(...copyNinja); // 8
+
+// const firstOne = [4,5,6,8];
+// const secondOne = [3,5,6,3];
+// const CopyAll = [...firstOne, ...secondOne];
+// console.log(CopyAll);
+// console.log(...CopyAll); // 9
