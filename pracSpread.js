@@ -604,3 +604,23 @@ console.log(myObje);
 //     last: "I will encourage everything what i am looking for"
 // }
 // console.log(add15); // 15
+
+// Special Practice
+
+const myObj = {
+    firstName: "Md",
+    lastName: "Juwel",
+    age: 22,
+    jobOffer: function(off1, off2, off3){
+        console.log(`Your first job war ${off1}. And then
+        ${off2}, Now you are working as ${off3}`);
+    }
+}
+
+const job = [
+    prompt('Here is first Job offer'),
+    prompt('Second Job offer'),
+    prompt('Third Job offer'),
+];
+console.log(job);
+myObj.jobOffer(...job)
