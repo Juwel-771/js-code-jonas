@@ -356,3 +356,28 @@ const restaurant = {
 // const main = [1,2,3,5];
 // const copy = [...main];
 // console.log(copy); // 10
+
+// const main2 = [1,2,3,4,5];
+// const main2Copy = [...main2];
+// console.log(main2Copy);  // 11
+
+// const main3 = ['j','u','w','e','l'];
+// const main3Copy = [...main3];
+// console.log(main3Copy);
+// console.log(...main3Copy); // 12
+
+// const main4 = [5,4,3,2,1];
+// const main4Copy = [...main4];
+// console.log(main4Copy); // 13
+
+
+// const main5 = [12,13,14,15,16];
+// const main5Copy = [...main5];
+// console.log(main5Copy); // 14
+
+// const main6 = [12, 15, 16, 17];
+// console.log(main6);
+// const main6Copy = [...main6];
+// console.log(main6Copy);
+// const addCopy = [...main6, 19, 20, 21, 22];
+// console.log(addCopy); // 15
