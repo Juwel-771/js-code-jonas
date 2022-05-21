@@ -36,8 +36,13 @@ const restaurant = {
     }
 
 }
+// >>>>>>>>>>>>>>>>>>>>>> Topics <<<<<<<<<<<<<<<
+// 1.>>> Basic <<<
+// 2.>>> Inserting new Element and Creating new variable. <<<
+// 3.>>> copying array from one to another array <<<
+// 4.>>> Joining 2 or more than a array <<<
 
-// --------------- Basic ------------------ 
+// >>>>>>>>>>>>>>>>>>> Basic <<<<<<<<<<<<<<<<<<
 // const arr = [1,2,3,4];
 // const newArr = [...arr, 5,6,7];
 // console.log(newArr); // 1
@@ -384,7 +389,29 @@ const restaurant = {
 
 // >>>>>>>>>>>>>>>>> Joining 2 or more than a array <<<<<<<<<<<<<<<<<<
 
-const arr = [1,2,3,4,5,6];
-const arr2 = [7,8,9,10,11,12];
-const join_Arr = [...arr, ...arr2];
-console.log(join_Arr);
+// const arr = [1,2,3,4,5,6];
+// const arr2 = [7,8,9,10,11,12];
+// const join_Arr = [...arr, ...arr2];
+// console.log(join_Arr); // 1
+
+// const arr = [1,2,4,5];
+// const arr2 = [...arr, 6,7,8];
+// console.log(arr2); // 2
+
+// const arr = ['j','u','w','e','l'];
+// const arr2 = ['m','d'];
+// console.log([...arr2, ...arr]); // 3
+
+// const arr = [1,2,3,4,5];
+// const arr2 = [2,3,4,5,6];
+// const fullArray = [...arr,...arr2];
+// console.log(fullArray);
+// console.log(...fullArray); //4 
+
+// const firstName = ['m','d'];
+// const lastName = ['j','u','w','e','l'];
+// const fullName = [...firstName, ...lastName];
+// console.log(fullName);
+// console.log(...fullName);
+// const nameCopy = [...fullName];
+// console.log(nameCopy);
