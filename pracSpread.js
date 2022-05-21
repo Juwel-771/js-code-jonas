@@ -512,3 +512,36 @@ const myObje = {
     age: 22
 };
 console.log(myObje);
+// const add1 = {
+//     ...myObje,
+//     hobby: 'Coding',
+// };
+// console.log(add1); // 1
+
+// const add2 = {
+//     ...myObje,
+//     sports: 'Football',
+//     game: 'Valorant'
+// }
+// console.log(add2); // 2
+
+// const add3 = {
+//     ...myObje,
+//     favuritePlayer: 'Meesi Ozil'
+// }
+// console.log(add3); // 3 
+
+// const add4 = {
+//     ...myObje,
+//     food: "Birani"
+// };
+
+// console.log(add4); // 4
+
+// const add5 = {
+//     ...myObje,
+//     drink: "Cocola or Pepsi"
+// }
+// console.log(add5); // 5
+
+

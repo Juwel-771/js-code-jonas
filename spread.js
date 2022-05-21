@@ -86,7 +86,7 @@ console.log(...letters);
 
 // restaurant.makePasta(...ingredients);
 
-// Works On Object
-const newRestaurant = {foundedIn: 1994, ...restaurant, founder: 'Cisco Dave'};
-console.log(newRestaurant);
+// // Works On Object
+// const newRestaurant = {foundedIn: 1994, ...restaurant, founder: 'Cisco Dave'};
+// console.log(newRestaurant); Do 15 times
 // Note: console.log(...newRestaurant); does'n work on Object.
