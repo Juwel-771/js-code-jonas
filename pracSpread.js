@@ -381,3 +381,10 @@ const restaurant = {
 // console.log(main6Copy);
 // const addCopy = [...main6, 19, 20, 21, 22];
 // console.log(addCopy); // 15
+
+// >>>>>>>>>>>>>>>>> Joining 2 or more than a array <<<<<<<<<<<<<<<<<<
+
+const arr = [1,2,3,4,5,6];
+const arr2 = [7,8,9,10,11,12];
+const join_Arr = [...arr, ...arr2];
+console.log(join_Arr);

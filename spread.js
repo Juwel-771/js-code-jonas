@@ -56,16 +56,16 @@ const restaurant = {
 // Inserting new element and creating New Menu (Just gain the basic)
 // const newMenu = [...restaurant.mainMenu, 'Egg Ramen'];
 // console.log(newMenu);
-// console.log(...newMenu); // 20 times
+// console.log(...newMenu); // Do 20 times
 
 // // Copy Array
 // const mainMenuCopy = [...restaurant.mainMenu];
-// console.log(mainMenuCopy); // Do 15 times 
+// console.log(mainMenuCopy); //  Do 15 times 
 
 // Joining 2 or more array 
-const menu = [...restaurant.starterMenu, ...restaurant.mainMenu];
-console.log(menu);
-console.log(...menu);
+// const menu = [...restaurant.starterMenu, ...restaurant.mainMenu];
+// console.log(menu);
+// console.log(...menu); // Do 15 times
 
 // Note: Iterables: arrays, String, Maps, Set. NOT Objects
 
