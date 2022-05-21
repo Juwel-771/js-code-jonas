@@ -41,6 +41,7 @@ const restaurant = {
 // 2.>>> Inserting new Element and Creating new variable. <<<
 // 3.>>> copying array from one to another array <<<
 // 4.>>> Joining 2 or more than a array <<<
+// 5.>>> Work On OBJECT <<<
 
 // >>>>>>>>>>>>>>>>>>> Basic <<<<<<<<<<<<<<<<<<
 // const arr = [1,2,3,4];
@@ -501,3 +502,13 @@ const restaurant = {
 // const allSub = [...subJect, ...dept];
 // console.log(allSub);
 // console.log(...allSub); // 15
+
+
+// >>>>>>>>>>>>>>> Work On Object <<<<<<<<<<<<<<
+
+const myObje = {
+    firstName: 'Md',
+    lastName: 'Juwel',
+    age: 22
+};
+console.log(myObje);
