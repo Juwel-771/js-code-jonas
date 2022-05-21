@@ -544,4 +544,32 @@ console.log(myObje);
 // }
 // console.log(add5); // 5
 
+// const add6 = {
+//     ...myObje,
+//     like: "Taking Note"
+// }
 
+// console.log(add6); // 6
+
+// const add7 = {
+//     music_band: 'NF <-> Linkin Park',
+//     ...myObje
+// }
+// console.log(add7); // 7
+// const add8 = {
+//     singer: 'Atif Islam',
+//     ...myObje
+// };
+// console.log(add8); // 8
+
+// const add9 = {
+//     line: 'I have closed my eyes. My only goal is in darkness',
+//     ...myObje
+// };
+// console.log(add9); // 9
+
+// const add10 = {
+//     ...myObje,
+//     message: 'I will encourge everything what i have lacking now',
+// };
+// console.log(add10); // 10
