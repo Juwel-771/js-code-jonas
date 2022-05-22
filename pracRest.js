@@ -81,3 +81,10 @@
 // const str = ['Z','U','B','A','Y','E','R'];
 // const [z,u,b, ...react] = str;
 // console.log(z,u,b,react); // 20
+
+// Note-Explain:- In any, suppose i want to only five element.
+// but array has 10 elements. If i take only 5 element then what 
+// will happen to other. For that case we need ...rest pattern.
+// we will assign rest element to the rest element. 
+// remember that ...rest will always assign to the left.
+// ...rest pattern will always initialize to last element.
