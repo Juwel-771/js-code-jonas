@@ -233,44 +233,44 @@
 // const {name,power, clan, ...rest} = myFver.chart;
 // console.log(name, power, clan, rest); // 10
 
-const work = {
-    openingDay: {
-        sat:{
-            open: '9AM',
-            close: '3am'
-        },
+// const work = {
+//     openingDay: {
+//         sat:{
+//             open: '9AM',
+//             close: '3am'
+//         },
 
-        sun:{
-            open: '9AM',
-            close: '3am'
-        },
+//         sun:{
+//             open: '9AM',
+//             close: '3am'
+//         },
 
-        mon:{
-            open: '9AM',
-            close: '3am'
-        },
+//         mon:{
+//             open: '9AM',
+//             close: '3am'
+//         },
 
-        thu: {
-            open: '9AM',
-            close: '3am'
-        },
+//         thu: {
+//             open: '9AM',
+//             close: '3am'
+//         },
 
-        wed: {
-            open: '9AM',
-            close: '3am'
-        },
+//         wed: {
+//             open: '9AM',
+//             close: '3am'
+//         },
 
-        thr: {
-            open: '9AM',
-            close: '3am'
-        },
+//         thr: {
+//             open: '9AM',
+//             close: '3am'
+//         },
 
-        fri: {
-            open: '9AM',
-            close: '3am'
-        }
-    }
-}
+//         fri: {
+//             open: '9AM',
+//             close: '3am'
+//         }
+//     }
+// }
 
 // const {sat, mon, ...rest} = work.openingDay;
 // console.log(sat, mon, rest); // 11
@@ -284,6 +284,18 @@ const work = {
 // const {wed, thr, ...rest} = work.openingDay;
 // console.log(wed, thr, rest); // 14
 
-const {fri, sat, ...rest}  = work.openingDay;
-console.log(fri, sat, rest);
+// const {fri, sat, ...rest}  = work.openingDay;
+// console.log(fri, sat, rest);  // 15
 
+// >>>>>>>>>>>>>>> Working On Function <<<<<<<<<<<<<<<
+
+const add = function(...Number){
+    let sum = 0;
+    let i =0;
+    for (i; i < Number.length; i++){
+        sum+=Number[i];
+    }
+    console.log(sum);
+}
+
+add(3,4);
