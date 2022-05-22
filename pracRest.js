@@ -156,3 +156,25 @@ const myObj = {
 // const{anime, Age, SecondName, ...rest} = simpleObj;
 // console.log(anime, Age, SecondName);
 // console.log(rest); // 5
+
+// const dayC = {
+//     one: {
+//         sat: 'sat',
+//         sun: 'sun'
+//     },
+
+//     two: {
+//         mon: 'mon',
+//         thu: 'thu'
+//     },
+
+//     three: {
+//         wed: 'wed',
+//         thr: 'thr'
+//     }
+// }
+
+// const {sat, ...rest} = dayC.one;
+// const {mon, ...rest2} = dayC.two;
+// const {wed, ...rest3} = dayC.three;
+// console.log(sat, mon, wed, rest, rest2, rest3); // 6 
