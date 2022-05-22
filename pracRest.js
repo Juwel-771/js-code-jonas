@@ -289,13 +289,58 @@
 
 // >>>>>>>>>>>>>>> Working On Function <<<<<<<<<<<<<<<
 
-const add = function(...Number){
-    let sum = 0;
-    let i =0;
-    for (i; i < Number.length; i++){
-        sum+=Number[i];
-    }
-    console.log(sum);
-}
+// const add = function(...Number){
+//     let sum = 0;
+//     let i =0;
+//     for (i; i < Number.length; i++){
+//         sum+=Number[i];
+//     }
+//     console.log(sum);
+// }
 
-add(3,4);
+// add(3,4);
+// add(4,2,5,6,10,12,15,19);
+// add(3,2.1,5); // 1
+
+// const multi = function(...number){
+//     let multi = 1;
+//     for(let i=0; i<number.length; i++){
+//         multi*=number[i];
+//     }    
+
+//     console.log(multi);
+// }
+
+// multi(5, 5);
+// multi(10, 4, 2);
+// multi(4, 9); // 2
+
+// const animeList = function(...anime){
+//     console.log(anime);
+// }
+
+// animeList('naruto','Boruto');
+// animeList('Sasuke','Orochimaru'); // 3
+
+// const myDetails = function(...details){
+//     console.log(details);
+// }
+
+// myDetails('Juwel');
+// myDetails('Ahmed');
+// myDetails('Juwel'); // 4
+
+// const divide = function(...number){
+    
+//     let dive = 1;
+
+//     for(let i = 0; i < number.length; i++){
+//         dive /= number[i];
+//     }
+//     console.log(dive);
+// }
+
+// divide(4, 2);
+
+// console.log(4/2);
+// console.log(4/2);  // 5
