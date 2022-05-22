@@ -344,3 +344,12 @@
 
 // console.log(4/2);
 // console.log(4/2);  // 5
+
+
+// const list = function(...name){
+//     console.log(name);
+// }
+
+// list('Juwel');
+// list('Zubayer');
+// list('Xaphan'); // 6
