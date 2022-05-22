@@ -89,38 +89,70 @@
 // remember that ...rest will always assign to the left.
 // ...rest pattern will always initialize to last element.
 
-// const myObj = {
-//     openingHours:{
-//         thu: {
-//             open:12,
-//             close:09,
-//         },
-//         mon: {
-//             open: 09,
-//             close: 10,
-//         },
-//         fri:{
-//             open:12,
-//             close: 09,
-//         },
-//         sat:{
-//             open:12,
-//             close: 09,
-//         },
-//         sun:{
-//             open:12,
-//             close: 09,
-//         },
-//         thr:{
-//             open:12,
-//             close: 09,
-//         },
-//         wed:{
-//             open:12,
-//             close: 09,
-//         },
-//     }
-// }
+const myObj = {
+    openingHours:{
+        thu: {
+            open:12,
+            close:09,
+        },
+        mon: {
+            open: 09,
+            close: 10,
+        },
+        fri:{
+            open:12,
+            close: 09,
+        },
+        sat:{
+            open:12,
+            close: 09,
+        },
+        sun:{
+            open:12,
+            close: 09,
+        },
+        thr:{
+            open:12,
+            close: 09,
+        },
+        wed:{
+            open:12,
+            close: 09,
+        },
+    }
+}
 
 // const {thu, mon, ...rest} = myObj.openingHours;
-// console.log(thu, mon, rest);
+// console.log(thu, mon, rest); // 1
+
+// const {mon, ...rest} = myObj.openingHours;
+// console.log(rest); // 2
+
+// const obj = {
+//     arr : [1,2,3,4,5]
+// };
+
+// const [a,b,...rest] =obj.arr;
+// console.log(rest);
+// console.log(a,b,rest); // 3
+
+// const obj = {
+//     firstName: 'md',
+//     secondName:'Juwel',
+//     age: 22,
+//     hobby:'Coding',
+// }
+// const {firstName,...rest} = obj;
+// console.log(firstName, rest); // 4
+
+// const simpleObj = {
+//     FirstName: 'Md',
+//     SecondName: 'Juwel',
+//     Age: 22,
+//     varsity: 'Port City International University',
+//     school: 'KCCC',
+//     anime: 'Naruto'
+// }
+// const{anime, Age, SecondName, ...rest} = simpleObj;
+// console.log(anime, Age, SecondName);
+// console.log(rest); // 5
