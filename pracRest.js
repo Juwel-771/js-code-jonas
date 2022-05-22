@@ -89,38 +89,40 @@
 // remember that ...rest will always assign to the left.
 // ...rest pattern will always initialize to last element.
 
-const myObj = {
-    openingHours:{
-        thu: {
-            open:12,
-            close:09,
-        },
-        mon: {
-            open: 09,
-            close: 10,
-        },
-        fri:{
-            open:12,
-            close: 09,
-        },
-        sat:{
-            open:12,
-            close: 09,
-        },
-        sun:{
-            open:12,
-            close: 09,
-        },
-        thr:{
-            open:12,
-            close: 09,
-        },
-        wed:{
-            open:12,
-            close: 09,
-        },
-    }
-}
+// >>>>>>>>>>>>>>>>>>>> WORK ON OBJECT <<<<<<<<<<<<<<<<<<<<
+
+// const myObj = {
+//     openingHours:{
+//         thu: {
+//             open:12,
+//             close:09,
+//         },
+//         mon: {
+//             open: 09,
+//             close: 10,
+//         },
+//         fri:{
+//             open:12,
+//             close: 09,
+//         },
+//         sat:{
+//             open:12,
+//             close: 09,
+//         },
+//         sun:{
+//             open:12,
+//             close: 09,
+//         },
+//         thr:{
+//             open:12,
+//             close: 09,
+//         },
+//         wed:{
+//             open:12,
+//             close: 09,
+//         },
+//     }
+// }
 
 // const {thu, mon, ...rest} = myObj.openingHours;
 // console.log(thu, mon, rest); // 1
@@ -230,3 +232,45 @@ const myObj = {
 
 // const {name,power, clan, ...rest} = myFver.chart;
 // console.log(name, power, clan, rest); // 10
+
+const work = {
+    openingDay: {
+        sat:{
+            open: '9AM',
+            close: '3am'
+        },
+
+        sun:{
+            open: '9AM',
+            close: '3am'
+        },
+
+        mon:{
+            open: '9AM',
+            close: '3am'
+        },
+
+        thu: {
+            open: '9AM',
+            close: '3am'
+        },
+
+        wed: {
+            open: '9AM',
+            close: '3am'
+        },
+
+        thr: {
+            open: '9AM',
+            close: '3am'
+        },
+
+        fri: {
+            open: '9AM',
+            close: '3am'
+        }
+    }
+}
+
+const {sat, mon, ...rest} = work.openingDay;
+console.log(sat, mon, rest);
