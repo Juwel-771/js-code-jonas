@@ -16,3 +16,11 @@ const guest = obj.numberGuest || 10;
 console.log(guest);
 
 console.log(obj);
+
+
+console.log("------- AND --------");
+
+console.log(0 && 'Jonas');
+console.log(7 && 'Jonas');
+
+console.log('Hello' && 23 && null && 'jonas');
