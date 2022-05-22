@@ -19,3 +19,8 @@
 // const react = ['R','E','A','C','T'];
 // const [r, e, ,t, ...other] = react;
 // console.log(r,e,t,other); // 5
+
+
+// const arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+// const [a, b, ,c, d, , e, ...rest] = arr;
+// console.log(a, b, c ,d ,e, rest); // 6
