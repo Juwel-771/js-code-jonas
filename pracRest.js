@@ -353,3 +353,36 @@
 // list('Juwel');
 // list('Zubayer');
 // list('Xaphan'); // 6
+
+// const list2 = function(...anime){
+//     console.log(anime);
+// }
+
+// list2('Tokyo Ghoul');
+// list2('Death Note');
+// list2('DBZ'); // 7
+
+// const friends = function(...frnd){
+//     console.log(frnd);
+// }
+
+// friends(1);
+// friends(4);
+// friends(6);
+// friends(8); // 8
+
+// const age = function(...age){
+//     console.log(age);
+// }
+
+// age(12);
+// age(15);
+// age(19); // 9
+
+const result = function(...reslt){
+    console.log(reslt);
+}
+
+result('SSC');
+result('HSC');
+result('JSC');
