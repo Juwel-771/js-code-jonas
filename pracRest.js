@@ -178,3 +178,55 @@ const myObj = {
 // const {mon, ...rest2} = dayC.two;
 // const {wed, ...rest3} = dayC.three;
 // console.log(sat, mon, wed, rest, rest2, rest3); // 6 
+
+// const week ={
+//     openHours: {
+//         sat: '2am',
+//         sun: '3am',
+//         mon: '4am',
+//         thu: '5am',
+//         wed: '6am',
+//         thr: '7am',
+//         fri: '8am',
+//     }
+// }
+
+// const {sat, sun, mon, ...rest} = week.openHours;
+// console.log(sat, sun, mon, rest); // 7 
+
+// const anime = {
+//     naruto: {
+//         main: 'Naruto',
+//         side: 'Sasuke',
+//         girl1: 'Sakura',
+//         girl2: 'Hinata',
+//         sensei: 'Kakashi',
+//         sensei2: 'Minato'
+//     }
+// }
+
+// const {main, girl2, sensei2, ...rest} = anime.naruto;
+// console.log(main, girl2, sensei2, rest); // 8
+
+// const simple = {
+//     anime: 'Naruto',
+//     father: 'Minato',
+//     mother: 'Kushina',
+//     sensei: 'Kakashi'
+// }
+
+// const {anime, mother, ...rest} = simple;
+// console.log(anime, mother, rest); // 9
+
+// const myFver = {
+//     chart:{
+//         name: 'Uchiha Sasuke',
+//         power: 'Rinnegran',
+//         clan: 'Uchiha',
+//         wife: 'Sakura',
+//         child: 'Sarada Uchiha'
+//     }
+// }
+
+// const {name,power, clan, ...rest} = myFver.chart;
+// console.log(name, power, clan, rest); // 10
