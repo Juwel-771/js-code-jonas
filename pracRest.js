@@ -62,6 +62,22 @@
 // console.log(a,v,rest); // 15
 
 
-const myName = ['m','d','j','u','w','e','l'];
-const [ m, d, ...rest] = myName;
-console.log(m,d,rest);
+// const myName = ['m','d','j','u','w','e','l'];
+// const [ m, d, ...rest] = myName;
+// console.log(m,d,rest); // 16
+
+// const str = ['S','T','R','I','N','G'];
+// const [s,t,,r,...other]=str;
+// console.log(s,t,r,other); // 17
+
+// const str2 = ['B','A','N','G','L','A','D','E','S','H'];
+// const [b,a,n,g,l,f,...rest] = str2;
+// console.log(b,a,n,g,l,f,rest); // 18
+
+// const str = ['J','U','W','E','L'];
+// const [j,u, ...rest] = str;
+// console.log(j, u, rest); // 19
+
+// const str = ['Z','U','B','A','Y','E','R'];
+// const [z,u,b, ...react] = str;
+// console.log(z,u,b,react); // 20
