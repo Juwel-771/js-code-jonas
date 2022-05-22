@@ -62,3 +62,6 @@
 // console.log(a,v,rest); // 15
 
 
+const myName = ['m','d','j','u','w','e','l'];
+const [ m, d, ...rest] = myName;
+console.log(m,d,rest);
