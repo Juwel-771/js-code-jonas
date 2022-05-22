@@ -41,9 +41,15 @@ const restaurant = {
     }
 
 }
+// >>>>>>>>>>>>>>>>>>>> Topics <<<<<<<<<<<<<<<<<<<<<<
+// 1) Basic Syntax.
+// 2) Work On object.
+// 3) Function Part.
+// 4) Working on Real Life Application.
+
 // 1) Destructuring Part
 // SPREAD, because on RIGHT side of = 
-const arr = [1,2, ...[3,4]];
+// const arr = [1,2, ...[3,4]];
 
 
 // REST, because of LEFT side of =
