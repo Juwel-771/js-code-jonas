@@ -272,5 +272,18 @@ const work = {
     }
 }
 
-const {sat, mon, ...rest} = work.openingDay;
-console.log(sat, mon, rest);
+// const {sat, mon, ...rest} = work.openingDay;
+// console.log(sat, mon, rest); // 11
+
+// const {mon, thu, ...rest} = work.openingDay;
+// console.log(mon, thu, rest); // 12
+
+// const {sat, sun, ...root} = work.openingDay;
+// console.log(sat, sun, root); // 13
+
+// const {wed, thr, ...rest} = work.openingDay;
+// console.log(wed, thr, rest); // 14
+
+const {fri, sat, ...rest}  = work.openingDay;
+console.log(fri, sat, rest);
+
