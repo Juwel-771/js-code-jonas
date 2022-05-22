@@ -44,3 +44,21 @@
 // const arr = [1,2,3,4,5];
 // const [a,b, ...other] = arr;
 // console.log(a,b,other); // 11
+
+// const arr = [6,7,8,9,10];
+// const [t, , ,k, ...other] = arr;
+// console.log(t,k,other); // 12
+
+// const arr = [11,12,13,14,15];
+// const [j,k, ...rest] = arr;
+// console.log(j,k, rest); // 13
+
+// const arr = [16,17,18,19,20];
+// const [a,b,c,...other] = arr;
+// console.log(a,b,c, other); // 14
+
+// const arr = [1,2,3,4,5];
+// const [a,v,...rest] = arr;
+// console.log(a,v,rest); // 15
+
+
