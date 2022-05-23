@@ -42,10 +42,6 @@ const game = {
 
 // 1. Print Scoring Goal
 
-const scoreName = Object.values(game.scored);
-console.log(scoreName);
-
-for(const scoredName of scoreName){
-    let i = 0;
-    console.log(`${scoreName} scored goal ${i}`);
+for(const [i, players] of game.scored.entries()){
+    console.log(`Goal ${i+1} scored: ${players}`);
 }
