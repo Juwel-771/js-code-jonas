@@ -106,3 +106,9 @@ const restaurant = {
 //     console.log(item);
 // } // 10
 
+// const str = ['Hate', 'Pain', 'Suffer', 'Frustration'];
+// for(const all of str){
+//     console.log(all);
+// } // 11
+
+ 
