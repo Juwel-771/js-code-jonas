@@ -32,3 +32,6 @@ for(const valu of Object.values(obj)){
 // Entire Object 
 const entire = Object.entries(obj);
 console.log(entire);
+
+const copyValue = [...values];
+console.log(copyValue);
