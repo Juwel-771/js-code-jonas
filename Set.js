@@ -102,3 +102,55 @@
 // console.log(set3); // 5
 
 
+// const set6 = new Set(['j','u','w','e']);
+
+// set6.add('A');
+// set6.add('H');
+// set6.add('M');
+// set6.add('E');
+// set6.add('D');
+
+// console.log(set6);
+// console.log(set6.size); // 6
+
+// const set7 = new Set([]);
+
+// set7.add('J');
+// set7.add('U');
+// set7.add('W');
+// set7.add('E');
+// set7.add('L');
+
+// console.log(set7); // 7
+
+// const set8 = new Set();
+
+// set8.add(7);
+// set8.add(6);
+// set8.add(5);
+// set8.add(4);
+// set8.add(3);
+// set8.add(2);
+// set8.add(1);
+
+// console.log(set8); // 8
+
+// const set9 = new Set();
+
+// set9.add(3);
+// set9.add(2);
+// set9.add(1);
+// console.log(set9); // 9
+
+const set10 = new Set([]);
+
+set10.add(4);
+set10.add(3);
+set10.add(2);
+set10.add(1);
+
+console.log(set10);
+
+
+
+
