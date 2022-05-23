@@ -56,6 +56,9 @@ const allplayers =[...players1, ...players2];
 console.log(allplayers);
 
 // 4. 3 others Player addeding
-
 const playersExtra = [...players1, 'Coutinho', 'Thiago', 'Periscic'];
 console.log(playersExtra);
+
+// 5. Creating new variable
+const {odds: {team1, x: draw, team2}} = game;
+console.log(team1, draw, team2);
