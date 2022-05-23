@@ -19,3 +19,6 @@
 
 // Note: Set only take unique value. And set mainly use for filter
 // array. Means remove duplicate value from array.
+
+// const number = new Set([11, 11, 22, 22, 33, 33]);
+// console.log(number); // 6
