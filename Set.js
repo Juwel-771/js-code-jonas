@@ -56,7 +56,7 @@
 
 // Adding New Value by add keyword
 
-const mySet = new Set([1,2,3,4,5,6]);
+// const mySet = new Set([1,2,3,4,5,6]);
 
 // mySet.add(7);
 // console.log(mySet); // Do -> 10 times
@@ -66,3 +66,39 @@ const mySet = new Set([1,2,3,4,5,6]);
 // mySet.add(10);
 
 // console.log(mySet); // 1
+
+// const mySet = new Set();
+
+// mySet.add('J');
+// mySet.add('U');
+// mySet.add('W');
+// mySet.add('E');
+// mySet.add('L');
+
+// console.log(mySet); // 2
+
+// const setOne = new Set([1,2,4]);
+
+// setOne.add(5);
+// setOne.add(7);
+// setOne.add('j');
+
+// console.log(setOne); // 3
+
+// const setTwo = new Set(['j','u','w']);
+
+// setTwo.add('z');
+// setTwo.add('u');
+// setTwo.add('b');
+// setTwo.add('y');
+
+// console.log(setTwo); // 4
+
+// const set3 = new Set();
+
+// set3.add(4);
+// set3.add(3);
+// set3.add(2);
+// console.log(set3); // 5
+
+
