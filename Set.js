@@ -53,3 +53,16 @@
 
 // const mySet3 = new Set([43, 23, 53, 'Juwel', 'Sarah']);
 // console.log(mySet3); // 15
+
+// Adding New Value by add keyword
+
+const mySet = new Set([1,2,3,4,5,6]);
+
+// mySet.add(7);
+// console.log(mySet); // Do -> 10 times
+
+// mySet.add(8);
+// mySet.add(9);
+// mySet.add(10);
+
+// console.log(mySet); // 1
