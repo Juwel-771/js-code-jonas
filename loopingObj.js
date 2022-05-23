@@ -38,3 +38,6 @@ console.log(copyValue);
 
 const copyEntire = [...entire];
 console.log("Entries Copy: " + copyEntire);
+
+const copyProperties = [...properties];
+console.log("Copy Of Properties: "+copyProperties);
