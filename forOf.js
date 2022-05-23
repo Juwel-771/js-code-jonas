@@ -131,3 +131,57 @@ const restaurant = {
 // for(const name of pro){
 //     console.log(name);
 // } // 15
+
+
+// Testing this code from internet.
+// var name = "Lilly";
+// var color = "White";
+// var age = 3;
+
+// // function declaration 
+// // using "this" keyword to access the object keys.
+// var barkWithName = function(){
+//     console.log('Woof Woof!!, I am '
+//     +this.name+' and I am a '
+//     +this.age+' years old, '
+//     +this.color+ ' coloured dog.Woof Woof!!');
+// }
+
+// // Using Object Literal Enhancement
+// // combines all variables into a yetAnotherDog object
+// var yetAnotherDog = {name, color, age, barkWithName};
+// // yetAnotherDog.barkWithName();
+
+// console.log(yetAnotherDog);
+
+// for(const x in yetAnotherDog){
+//     console.log(x);
+// }
+
+
+// Old syntax
+var driver1 = {
+    name: "John",
+    speed: 50,
+    car:"Ferrari",
+    speedUp: function(speedup){
+         this.speed = this.speed + speedup;
+         console.log("new speed = "+ this.speed)
+    }
+}
+  
+// New syntax without function keyword
+const driver2 = {
+    name: "Jane",
+    speed: 60,
+    car:"McLaren",
+    speedUp(speedup){
+         this.speed = this.speed + speedup;
+         console.log("new speed = "+ this.speed)
+    }
+}
+
+console.log(driver2.speedUp(10));
+for(const i in driver2){
+    console.log(i);
+}
