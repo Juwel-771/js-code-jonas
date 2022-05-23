@@ -41,7 +41,17 @@ const game = {
 };
 
 // 1. Print Scoring Goal
-
 for(const [i, players] of game.scored.entries()){
     console.log(`Goal ${i+1} scored: ${players}`);
 }
+
+// 2. Calculation the odd;
+const odds = Object.values(game.odds);
+let avg = 0;
+for(const odd of odds)
+avg += odd;
+avg /= odds.length;
+console.log(avg);
+
+
+
