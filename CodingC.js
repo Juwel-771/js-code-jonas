@@ -54,3 +54,8 @@ console.log(gk, fieldPlayers);
 // 3. One array with all the players.
 const allplayers =[...players1, ...players2];
 console.log(allplayers);
+
+// 4. 3 others Player addeding
+
+const playersExtra = [...players1, 'Coutinho', 'Thiago', 'Periscic'];
+console.log(playersExtra);
