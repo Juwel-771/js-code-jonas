@@ -28,3 +28,7 @@ console.log(values);
 for(const valu of Object.values(obj)){
     console.log(valu);
 }
+
+// Entire Object 
+const entire = Object.entries(obj);
+console.log(entire);
