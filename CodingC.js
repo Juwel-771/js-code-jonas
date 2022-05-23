@@ -44,6 +44,13 @@ const game = {
 // Challenge Solution
 
 // 1. Creating Array.
-
 const[players1, players2] = game.Players;
 console.log(players1, players2);
+
+// 2. Creating array with gk variables
+const [gk, ...fieldPlayers] = players1; 
+console.log(gk, fieldPlayers);
+
+// 3. One array with all the players.
+const allPlayers =[...players1, ...players2];
+console.log(allPlayers);
