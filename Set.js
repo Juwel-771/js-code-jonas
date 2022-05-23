@@ -22,3 +22,19 @@
 
 // const number = new Set([11, 11, 22, 22, 33, 33]);
 // console.log(number); // 6
+
+// const myNumber = new Set([435,345,34,22,41]);
+// console.log(myNumber); // 7
+
+// Note: After first carly brace always use third carly brace. 
+// Because set are like array. so that's why we need to use third
+// curly brace.
+
+// const myAge = new Set([1,2,4,5,6,7,8]);
+// console.log(myAge); // 8
+
+// const yourNumber = new Set([11, 23, 25, 64, 23]);
+// console.log(yourNumber); // 9
+
+// const last = new Set([4,2,1,1,23,5,36,7,87]);
+// console.log(last); // 10
