@@ -40,4 +40,16 @@
 // console.log(last); // 10
 
 // const obj = new Set([33, 12, 'juwel', 'leo']);
-// console.log(obj);
+// console.log(obj); // 11
+
+// const obj2 = new Set(['Juwel','Zubaiyer', 34, 35, 21]);
+// console.log(obj2); // 12
+
+// const mySet1 = new Set([3.2, 3.1, 3,4,'Juwel','Leo']);
+// console.log(mySet1); // 13
+
+// const mySet2 = new Set([1,2,3,4,5]);
+// console.log(mySet2); // 14
+
+// const mySet3 = new Set([43, 23, 53, 'Juwel', 'Sarah']);
+// console.log(mySet3); // 15
