@@ -40,3 +40,10 @@ const game = {
         team2: 6.5,
     },
 };
+
+// Challenge Solution
+
+// 1. Creating Array.
+
+const[players1, players2] = game.Players;
+console.log(players1, players2);
