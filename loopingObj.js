@@ -35,3 +35,6 @@ console.log(entire);
 
 const copyValue = [...values];
 console.log(copyValue);
+
+const copyEntire = [...entire];
+console.log("Entries Copy: " + copyEntire);
