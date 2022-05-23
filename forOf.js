@@ -96,3 +96,13 @@ const restaurant = {
 //     console.log(item[]);
 // } // 8
 
+// const myName = [1,2,3,4,5,6];
+// for(const number of myName){
+//     console.log(number);
+// } // 9
+
+// const ID = ['382', '399', '404', '444'];
+// for(const item of ID){
+//     console.log(item);
+// } // 10
+
