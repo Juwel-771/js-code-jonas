@@ -111,4 +111,23 @@ const restaurant = {
 //     console.log(all);
 // } // 11
 
+
+// const name = ['Naruto','Sasuke','Obito','Madara','Itachi','Danzo'];
+// for(const anime of name){
+//     console.log(anime);
+// } // 12
  
+// const number = [1,2,3,4,5,6];
+// for(const i of number){
+//     console.log(i);
+// } // 13
+
+// const samurai = ['Naruto', 'Sasuke', 'Hinata', 'Sakura'];
+// for(const name of samurai){
+//     console.log(name);
+// } // 14
+
+// const pro = ['Hard-Work','Passion','Repeat over and over again'];
+// for(const name of pro){
+//     console.log(name);
+// } // 15
