@@ -13,9 +13,18 @@ const obj = {
     }
 };
 
+// Accessing on properties and getting properties name.
 const properties = Object.keys(obj);
 console.log(properties);
 
 for(const day of Object.keys(obj)){
     console.log(day);
+}
+
+// Accessing the properties values.
+const values = Object.values(obj);
+console.log(values);
+
+for(const valu of Object.values(obj)){
+    console.log(valu);
 }
