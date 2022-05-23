@@ -37,14 +37,41 @@ const restaurant = {
 
 }
 
-const arr = ['Juwel','Xenon','Xavier','Xaphan','Winesia', 'XaviTor'];
+// const arr = ['Juwel','Xenon','Xavier','Xaphan','Winesia', 'XaviTor'];
 
-for(const item of arr){
-    console.log(item);
-}
+// for(const item of arr){
+//     console.log(item);
+// } -> Do:- 15 times
 
-const menu = [...restaurant.starterMenu, ...restaurant.mainMenu];
+// const menu = [...restaurant.starterMenu, ...restaurant.mainMenu];
 
-for(const [i, el] of menu.entries()){
-    console.log(`${i + 1}: ${el}`);
-}
+// for(const [i, el] of menu.entries()){
+//     console.log(`${i + 1}: ${el}`);
+// }
+
+// const arr = [1, 2, 4, 5, 6, 7, 8, 9];
+// for(const item of arr){
+//     console.log(item);
+// } // 1
+
+// const arr =['Md', 'Juwel', 'Ahmed', 'Zubaiyer'];
+// // const item = [];
+
+// for(const item of arr){
+//     console.log(item);
+// } // 2
+
+// const arr = [1,2,3,4,5];
+// for(const number of arr){
+//     console.log(number);
+// } // 3
+
+// const arr = ['Md', 'Juwel', 'Abir'];
+// for(const item of arr){
+//     console.log(item);
+// } // 4
+
+// const footballClub = ['Arsenal', 'Barcelona', 'Chelsea','Dortmund', 'Elche','Frankfruit'];
+// for(const club of footballClub){
+//     console.log(club);
+// } // 5
