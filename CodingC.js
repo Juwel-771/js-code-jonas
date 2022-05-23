@@ -52,5 +52,5 @@ const [gk, ...fieldPlayers] = players1;
 console.log(gk, fieldPlayers);
 
 // 3. One array with all the players.
-const allPlayers =[...players1, ...players2];
-console.log(allPlayers);
+const allplayers =[...players1, ...players2];
+console.log(allplayers);
