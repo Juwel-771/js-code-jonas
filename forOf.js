@@ -75,3 +75,14 @@ const restaurant = {
 // for(const club of footballClub){
 //     console.log(club);
 // } // 5
+
+// const carName = ['BMW', 'Audi', 'Honda', 'Bugati'];
+// for(const car of carName){
+//     console.log(car);
+// } // 6
+
+// const basic = ['school', 'Game', 'OTP', 'Nexux'];
+// for(const x of basic){
+//     console.log(x);
+// } //
+
