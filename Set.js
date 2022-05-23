@@ -150,7 +150,22 @@ set10.add(2);
 set10.add(1);
 
 console.log(set10);
+console.log(set10.size);
+console.log(set10.has(3));
+console.log(set10.has(6));
+
+console.log(set10.delete(3));
+console.log(set10);
+
+for(const order of set10){
+    console.log(order);
+}
+
+console.log(set10.values());
 
 
-
+// example 
+const staff = ['Waiter','Chef','Waiter','Manager','Chef','Waiter'];
+const setStaff= [...new Set(staff)];
+console.log(setStaff);
 
