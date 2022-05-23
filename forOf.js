@@ -159,29 +159,29 @@ const restaurant = {
 // }
 
 
-// Old syntax
-var driver1 = {
-    name: "John",
-    speed: 50,
-    car:"Ferrari",
-    speedUp: function(speedup){
-         this.speed = this.speed + speedup;
-         console.log("new speed = "+ this.speed)
-    }
-}
+// // Old syntax
+// var driver1 = {
+//     name: "John",
+//     speed: 50,
+//     car:"Ferrari",
+//     speedUp: function(speedup){
+//          this.speed = this.speed + speedup;
+//          console.log("new speed = "+ this.speed)
+//     }
+// }
   
-// New syntax without function keyword
-const driver2 = {
-    name: "Jane",
-    speed: 60,
-    car:"McLaren",
-    speedUp(speedup){
-         this.speed = this.speed + speedup;
-         console.log("new speed = "+ this.speed)
-    }
-}
+// // New syntax without function keyword
+// const driver2 = {
+//     name: "Jane",
+//     speed: 60,
+//     car:"McLaren",
+//     speedUp(speedup){
+//          this.speed = this.speed + speedup;
+//          console.log("new speed = "+ this.speed)
+//     }
+// }
 
-console.log(driver2.speedUp(10));
-for(const i in driver2){
-    console.log(i);
-}
+// console.log(driver2.speedUp(10));
+// for(const i in driver2){
+//     console.log(i);
+// }
