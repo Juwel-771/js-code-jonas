@@ -65,4 +65,26 @@ const restaurant = {
 // } 
 
 // const chain = obj?.realName ?? 'There is no name';
-// console.log(chain); // 3 
+// console.log(chain); // 3
+
+// let myMap = new Map();
+// myMap.set("foo",
+// {
+//     name: "baz",
+//     dexe: "inga"
+// });
+
+// let check = myMap.get("baz")?.name;
+// console.log(check); // 4
+
+let customer = {
+    name: "sarah",
+    details: {
+        age: 22,
+        location: "Paradise Falls"
+    }
+}
+
+// let check = customer?.details;
+let check = customer.details?.location?.address ?? "There is no address";
+console.log(check);
