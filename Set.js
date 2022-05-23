@@ -38,3 +38,6 @@
 
 // const last = new Set([4,2,1,1,23,5,36,7,87]);
 // console.log(last); // 10
+
+// const obj = new Set([33, 12, 'juwel', 'leo']);
+// console.log(obj);
