@@ -84,5 +84,15 @@ const restaurant = {
 // const basic = ['school', 'Game', 'OTP', 'Nexux'];
 // for(const x of basic){
 //     console.log(x);
-// } //
+// } // 7
+
+// const basicObj = {
+//     firstName : 'Md',
+//     lastName: 'Juwel',
+//     age: 33
+// };
+
+// for(const item in basicObj){
+//     console.log(item[]);
+// } // 8
 
