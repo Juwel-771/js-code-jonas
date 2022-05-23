@@ -62,3 +62,10 @@ console.log(playersExtra);
 // 5. Creating new variable
 const {odds: {team1, x: draw, team2}} = game;
 console.log(team1, draw, team2);
+
+// 6. Score Count
+const printGoal = function(...players){
+    console.log(`${players.length} goals were scored`);
+} 
+
+printGoal(...game.scored);
