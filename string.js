@@ -38,3 +38,15 @@ const checkMiddle = function(seat){
 checkMiddle('11B');
 checkMiddle('23C');
 checkMiddle('3E');
+
+// Simple string method
+
+const passenger = 'jUwEL';
+const passengerLower = passenger.toLowerCase();
+const passengerUpper = passengerLower[0].toUpperCase() + passengerLower.slice(1);
+
+console.log(passengerUpper);
+
+const priceGB = '299.94%';
+const replaceMethod  = priceGB.replace('%', '$');
+console.log(replaceMethod);
