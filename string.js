@@ -60,3 +60,21 @@ const planeTow = 'Airbus A320neo';
 console.log(planeTow.includes('A320'));
 console.log(planeTow.includes('Boeing'));
 console.log(planeTow.startsWith('Airb'));
+console.log(planeTow.endsWith('neo'));
+
+// Practice Execrise
+
+const baggage = function(item){
+    const goods = item.toLowerCase();
+
+    if(goods.includes('knife') || goods.includes('gun')){
+        console.log('Please put this thing down');
+    }else{
+        console.log('You are welcome to abroad');
+    }
+
+};
+
+baggage('I have Knife');
+baggage('I have Gun');
+baggage('I have nothing to show');
