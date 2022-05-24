@@ -16,3 +16,13 @@ const gameEvents = new Map([
 const events = [...new Set(gameEvents.values())];
 console.log(events);
 
+// 2. Delete events
+gameEvents.delete(64);
+console.log(gameEvents);
+
+// 3. Calculation events
+
+const time = [...gameEvents.keys()].pop();
+console.log(time);
+
+console.log(`An event happened, on average, every ${time / gameEvents.size} minutes`);
