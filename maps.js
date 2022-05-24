@@ -13,6 +13,8 @@ rest.set('categories',['Italian', 'Pizzeria','Vegetarian','Organic'])
 
     console.log(rest);
 
+    // Do -> 15 times
+
 // getting values
 
 console.log(rest.get('name'));
