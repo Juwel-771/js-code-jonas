@@ -34,3 +34,15 @@
 //     [3, 'Three']
 // ]);
 // console.log(myText); // 5
+
+// Note: in map section first one is 'Key'.
+// the second one is 'value'
+
+const text = new Map([
+    ['name','juwel'],
+    ['age', '22 years old'],
+    ['hobby', 'Coding'],
+    ['aim','Best Developer']
+]);
+
+console.log(text);
