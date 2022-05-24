@@ -50,3 +50,13 @@ console.log(passengerUpper);
 const priceGB = '299.94%';
 const replaceMethod  = priceGB.replace('%', '$');
 console.log(replaceMethod);
+
+const events = 'All passenger come to boarding door 23. Boarding door 23';
+
+console.log(events.replaceAll('door', 'gate'));
+
+// Booleans 
+const planeTow = 'Airbus A320neo';
+console.log(planeTow.includes('A320'));
+console.log(planeTow.includes('Boeing'));
+console.log(planeTow.startsWith('Airb'));
