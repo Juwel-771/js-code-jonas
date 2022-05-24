@@ -82,3 +82,11 @@
 // ]);
 
 // console.log(text4); 10 
+
+// const number1 = new Map([
+//     [1, 4],
+//     [1, 5],
+//     [2, 7]
+// ]);
+
+// console.log(number1);
