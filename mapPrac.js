@@ -135,3 +135,25 @@ console.log(number5); // 15
 
 // console.log(number5); // 2
 
+// number5.set('a', 1);
+// number5.set('b', 2);
+// number5.set('c', 3);
+// number5.set('d', 4);
+// number5.set('e', 5);
+
+// console.log(number5); // 3
+
+// number5.set(1, 'a');
+// number5.set(2, 'b');
+// number5.set(3, 'c');
+// number5.set(4, 'd');
+// number5.set(5, 'e');
+
+// console.log(number5); // 4
+
+// number5.set('one', 1);
+// number5.set(2, 'two');
+// console.log(number5); // 5
+
+// number5.delete(5);
+// console.log(number5.has(5));
