@@ -78,3 +78,13 @@ const baggage = function(item){
 baggage('I have Knife');
 baggage('I have Gun');
 baggage('I have nothing to show');
+
+
+// Split and join
+
+console.log('a+very+nice+string'.split('+'));
+console.log('Md Juwel'. split(' '));
+
+const [firstName, lastName] = 'MD Juwel'.split(' ');
+const newName = ['Mr.', firstName, lastName.toUpperCase()].join(' ');
+console.log(newName);
