@@ -38,11 +38,47 @@
 // Note: in map section first one is 'Key'.
 // the second one is 'value'
 
-const text = new Map([
-    ['name','juwel'],
-    ['age', '22 years old'],
-    ['hobby', 'Coding'],
-    ['aim','Best Developer']
-]);
+// const text = new Map([
+//     ['name','juwel'],
+//     ['age', '22 years old'],
+//     ['hobby', 'Coding'],
+//     ['aim','Best Developer']
+// ]);
 
-console.log(text);
+// console.log(text); // 6
+
+// const text1 = new Map([
+//     ['Uchiha','Sasuke'],
+//     ['Uzumaki', 'Naruto'],
+//     ['Hyuga','Hinata'],
+//     ['Haruno', 'Sakura']
+// ]);
+
+// console.log(text1); // 7
+
+// const text2 = new Map([
+//     ['anime','Solo Leveling'],
+//     ['football','Barcelona'],
+//     ['national','Argentina']
+// ]);
+
+// console.log(text2); // 8
+
+// const text3 = new Map([
+//     ['Key','Value'],
+//     ['Key','Value'],
+//     ['Key','Value'],
+//     ['Key','Value']
+// ]);
+
+// console.log(text3); // 9
+
+// Note: Map also ignore duplicate value like Set.
+
+// const text4 = new Map([
+//     ['Psg','Paris Saint Germain'],
+//     ['FCB', 'Football Club Barcelona'],
+//     ['RM','Real Madrid']
+// ]);
+
+// console.log(text4); 10 
