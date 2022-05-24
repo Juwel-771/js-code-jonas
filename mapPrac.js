@@ -81,7 +81,7 @@
 //     ['RM','Real Madrid']
 // ]);
 
-// console.log(text4); 10 
+// console.log(text4); // 10 
 
 // const number1 = new Map([
 //     [1, 4],
@@ -89,4 +89,37 @@
 //     [2, 7]
 // ]);
 
-// console.log(number1);
+// console.log(number1); // 11
+
+// const number2 = new Map([
+//     [1, 4],
+//     [2, 4],
+//     [3, 6]
+// ]);
+
+// console.log(number2); // 12
+
+
+// const number3 = new Map([
+//     [11, 22],
+//     [22, 'TWO TWO'],
+//     ['THREE', 33]
+// ]);
+
+// console.log(number3); // 13
+
+// const number4 = new Map([
+//     [11, 22],
+//     [22, 23]
+// ]);
+
+// console.log(number4); // 14
+
+// const number5 = new Map([
+//     ['juwle', 1],
+//     [1, 'One'],
+//     [2, 2],
+//     ['three','three']
+// ]);
+
+// console.log(number5); // 15
