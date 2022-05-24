@@ -115,11 +115,23 @@
 
 // console.log(number4); // 14
 
-// const number5 = new Map([
-//     ['juwle', 1],
-//     [1, 'One'],
-//     [2, 2],
-//     ['three','three']
-// ]);
+const number5 = new Map([
+    ['juwle', 1],
+    [1, 'One'],
+    [2, 2],
+    ['three','three']
+]);
 
-// console.log(number5); // 15
+console.log(number5); // 15
+
+
+// number5.set(4, 'Four');
+// console.log(number5); // 1
+
+// number5.set('Four', 4);
+// number5.set('Five', 5);
+// number5.set('six', 6);
+// number5.set('seven', 7);
+
+// console.log(number5); // 2
+
