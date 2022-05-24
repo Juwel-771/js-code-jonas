@@ -11,3 +11,8 @@ const gameEvents = new Map([
     [86, 'GOAL'],
     [92, 'Yellow Card']
 ]);
+
+// 1. Creating array with a unique value
+const events = [...new Set(gameEvents.values())];
+console.log(events);
+
