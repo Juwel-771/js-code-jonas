@@ -21,3 +21,10 @@
 // const playerNumber = [10, 7, 11, 21, 32];
 // const [messi, ronaldo, ozil] = playerNumber;
 // console.log(messi, ronaldo, ozil); // 5
+
+// const [a, b] = [12, 14, 16, 18];
+// console.log(a, b); // 6
+
+
+
+
