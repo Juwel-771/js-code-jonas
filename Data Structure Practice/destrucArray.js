@@ -42,6 +42,11 @@
 // console.log(a,b,c,d,e); // 10
 
 
+// const str = ['Juwel','Ahmed','Zubayer'];
+// const [firstName, middleName, lastName] = str;
+// console.log(firstName, middleName, lastName); // 11 
+
+
 
 
 
