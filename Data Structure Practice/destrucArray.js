@@ -172,11 +172,39 @@
 // [a,b, ,[z,r]]=arr3;
 // console.log([a, b, [z, r]]); // 
 
-const arr = [
-    [1,2,3,4,5,6],
-    [7,8,9,10,11],
-    [12,13,14,15]
-];
+// const arr = [
+//     [1,2,3,4,5,6],
+//     [7,8,9,10,11],
+//     [12,13,14,15]
+// ];
 
-const [[a,b,c],[d,e,f]] =arr;
-console.log(a,b,c,d,e,f);
+// const [[a,b,c],[d,e,f]] =arr;
+// console.log(a,b,c,d,e,f); // 1
+
+// const arr = [
+//     [1,2,3,4,5,6],
+//     [7,8,9,10,11],
+//     [12,13,14,15]
+// ];
+// const [[a,b,c],[d,f],[g,h]] = arr;
+// console.log(a,b,c,d,f,g,h); // 2
+
+// const arr = [1,2,3,[4,5],[6,7]];
+// [a,b, ,[c,d]] = arr;
+// console.log(a,b,c,d); // 3
+
+// const arr = [1,2,3,[4,5,6],[7,8,9],[10,11,12,13]];
+// [a,b,c, [e,f],[g,h], [i,j]]= arr;
+// console.log(a,b,c,e,f,g,h,i,j); // 4
+
+// const arr = [
+//     1,2,3,
+//     [4,5,
+//         [6,7],
+//         [9,10]
+//     ],
+// ];
+
+// [a,b,c,[d,f,[g],[i]]] = arr;
+// console.log(a,b,c,d,f,g,i); // 5
+
