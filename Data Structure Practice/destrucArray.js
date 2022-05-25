@@ -77,9 +77,13 @@
 // [a, b] = arr;
 // console.log(a,b); // 2
 
+// let a2, b2;
+// [a2=5, b2=2] = [1];
+// console.log(a2, b2); // 10 times
 
-
-
+// const name = ['juwel','md','ahmed'];
+// const [a='rakib',b='sakin',c='sajin',d='jubayer'] = name;
+// console.log(a, b, c, d); // 1
 
 
 
