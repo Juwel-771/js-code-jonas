@@ -63,6 +63,22 @@
 // const [sam, app, nok]= mobile;
 // console.log(sam, app, nok); // 15
 
+// >>>>>>>>>>>>>>>> SEPARATE VARIABLE DECLARATION <<<<<<<<<<<<<<<<<
+// let a;
+// let b;
+
+// [a, b] = [1,2];
+// console.log(a,b); // 1
+
+// let a= 0;
+// let b= 0;
+
+// const arr = [1,2,3];
+// [a, b] = arr;
+// console.log(a,b); // 2
+
+
+
 
 
 
