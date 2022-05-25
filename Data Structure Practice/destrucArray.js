@@ -25,6 +25,23 @@
 // const [a, b] = [12, 14, 16, 18];
 // console.log(a, b); // 6
 
+// const arr = [2,5,6,'juwel'];
+// const [des1, des2, des3, des4] = arr;
+// console.log(des1, des2, des3, des4); // 7
+
+// const numberAdd = [1,2,3,4,5,6,7,8,9];
+// const [n1, n2] = numberAdd;
+// console.log(n1, n2); // 8
+
+// const numberAdd = [3,4,5,6];
+// const [a, b, c] = numberAdd;
+// console.log(a, b, c); // 9
+
+// const numberAdd = [1,2];
+// const [a,b,c,d,e] = numberAdd;
+// console.log(a,b,c,d,e); // 10
+
+
 
 
 
