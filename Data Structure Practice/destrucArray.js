@@ -208,3 +208,11 @@
 // [a,b,c,[d,f,[g],[i]]] = arr;
 // console.log(a,b,c,d,f,g,i); // 5
 
+// const oneArray = [1,2,3,[4,5,6]];
+// [a,b, ,[c, d]] = oneArray;
+// console.log(a,b,c,d); // 6
+
+// const twoArray = [1,2,[3,4],[5,6]];
+// [a, ,[b], [c]] = twoArray;
+// console.log(a, b, c); // 7
+
