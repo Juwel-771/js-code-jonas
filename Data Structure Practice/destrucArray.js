@@ -104,3 +104,19 @@
 // const str = ['vsCode', 'sublime'];
 // const [a, b, c='bracket', d='phpStorm'] = str;
 // console.log(a,b,c,d); // 6
+
+// const club = ['Barcelona', 'Real Madrid'];
+// const [a, b, c= 'Chelsea', d= 'Dotmund'] = club;
+// console.log(a, b, c, d); // 7 
+
+// const number = [1,2,3];
+// const [a, b, c, d= 2, f=4, g=4] = number;
+// console.log(a,b,c,d,f,g); // 8
+
+// const anime = ['naruto','sasuke'];
+// const [a='hinata',b = 'sakura', c = 'Neji']= anime;
+// console.log(a, b, c); // 9
+
+const number = [1,2];
+const [a=1, b=2, c=3, d=4] = number;
+console.log(a,b,c,d);
