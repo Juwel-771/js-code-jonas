@@ -46,6 +46,23 @@
 // const [firstName, middleName, lastName] = str;
 // console.log(firstName, middleName, lastName); // 11 
 
+// const str = ['Barcelona', 'Real Madrid', 'PSG', 'Bayern'];
+// const [club1, club2, club3] = str;
+// console.log(club1, club2, club3); // 12
+
+// const str = ['Paris', 'Turkey', 'Brazil', 'Argentina'];
+// const [c1, c2, c3] = str;
+// console.log(c1, c2, c3); // 13
+
+// const pc = ['Hp', 'Dell', 'Apple', 'Asus','Acer'];
+// const [pc1, pc2]= pc;
+// const [pc3, pc4]= pc;
+// console.log(pc1, pc2, pc3, pc4); // 14
+
+// const mobile = ['Samsung', 'Apple', 'Nokia', 'Xiami'];
+// const [sam, app, nok]= mobile;
+// console.log(sam, app, nok); // 15
+
 
 
 
