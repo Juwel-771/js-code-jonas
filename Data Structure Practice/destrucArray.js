@@ -166,3 +166,17 @@
 // const str = ['Md', 'Juwel', 'Ahmed'];
 // const [ , a, b]=str;
 // console.log(a,b); // 5
+
+// Nesting inside loop
+// let arr3 = [2, 4, 5, [10, 13, 14]];
+// [a,b, ,[z,r]]=arr3;
+// console.log([a, b, [z, r]]); // 
+
+const arr = [
+    [1,2,3,4,5,6],
+    [7,8,9,10,11],
+    [12,13,14,15]
+];
+
+const [[a,b,c],[d,e,f]] =arr;
+console.log(a,b,c,d,e,f);
