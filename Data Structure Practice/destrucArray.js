@@ -85,5 +85,19 @@
 // const [a='rakib',b='sakin',c='sajin',d='jubayer'] = name;
 // console.log(a, b, c, d); // 1
 
+// const number = [1,2,3,4,5];
+// const [a = 2, b = 3, c, d] = number;
+// console.log(a, b, c, d); // 2
 
+// const def = ['beer','whisky','drink'];
+// const [a = 'mango juice', b = 'soft drinks'] = def;
+// console.log(a, b); // 3
+
+// const numberCall = [2,4];
+// const [a, b, c=4, d=5] = numberCall;
+// console.log(a, b, c, d); // 4
+
+// const num = ['juwel', 'dev', 'all'];
+// const [a, b, c, d='football', e ='sccoer'] = num;
+// console.log(a, b, c, d, e); // 5
 
