@@ -101,3 +101,6 @@
 // const [a, b, c, d='football', e ='sccoer'] = num;
 // console.log(a, b, c, d, e); // 5
 
+// const str = ['vsCode', 'sublime'];
+// const [a, b, c='bracket', d='phpStorm'] = str;
+// console.log(a,b,c,d); // 6
