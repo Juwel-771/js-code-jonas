@@ -117,6 +117,52 @@
 // const [a='hinata',b = 'sakura', c = 'Neji']= anime;
 // console.log(a, b, c); // 9
 
-const number = [1,2];
-const [a=1, b=2, c=3, d=4] = number;
-console.log(a,b,c,d);
+// const number = [1,2];
+// const [a=1, b=2, c=3, d=4] = number;
+// console.log(a,b,c,d); // 10
+
+// const arr = [1,2];
+//  [a, b] = arr;
+// // console.log(a,b);
+// [b,a] = [a, b]
+// console.log(b,a);
+
+// function foo(){
+//     return [2,5];
+// }
+
+// const [a,b] = foo();
+// console.log(a, b);
+
+// Ignoring some returned values
+// function f(){
+//     return [4, 5, 9];
+// }
+// [a4, ,g] = f();
+// console.log(a4, g);
+
+// const[c]= f();
+// console.log(c); // 10 times
+
+// const arr = [1,2,3,4,5];
+// const [a, , c, , d]=arr;
+// console.log(a,c,d); // 1
+
+// const ignore = [1,2,3];
+// const [a, ,c] = ignore;
+// console.log(a,c); // 2
+
+// const value = ['juwel','ahmed','md'];
+// [a, ,c] = value;
+// console.log(a, c);
+
+// [c, a] = [a, c];
+// console.log(a, c); // 3
+
+// const number = [1,2,3,4,5];
+// const [a, , , ,n] = number;
+// console.log(a, n); // 4
+
+// const str = ['Md', 'Juwel', 'Ahmed'];
+// const [ , a, b]=str;
+// console.log(a,b); // 5
