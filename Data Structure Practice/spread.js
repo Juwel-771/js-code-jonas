@@ -20,7 +20,17 @@
 // console.log(newArr);
 // console.log(...newArr); // 4
 
-const newArr = ['Md','Juwel','Ahmed'];
-const myArr = [...newArr, 'where'];
-console.log(myArr);
-console.log(...myArr);
+// const newArr = ['Md','Juwel','Ahmed'];
+// const myArr = [...newArr, 'where'];
+// console.log(myArr);
+// console.log(...myArr); // 5
+
+// const number = [1,2,3,4,5,6];
+// const newNumber = [...number, 7,8,9];
+// console.log(newNumber);
+// console.log(...newNumber); // 6
+
+// const club = ['BARCELONA', 'REAL MADRID', 'CHELSEA', 'BAYERN'];
+// const newClub = [...club, 'DORTMUND','LIVERPOOL'];
+// console.log(newClub);
+// console.log(...newClub);
