@@ -601,3 +601,6 @@ openingHours:{
 
 // const {openingHours: {sun: s}} = person;
 // console.log(s); // 5
+
+// const {openingHours: {thu: t="Data available"}} = person;
+// console.log(t);
