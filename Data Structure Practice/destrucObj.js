@@ -603,4 +603,16 @@ openingHours:{
 // console.log(s); // 5
 
 // const {openingHours: {thu: t="Data available"}} = person;
-// console.log(t);
+// console.log(t); // 6
+
+// const {openingHours: {fri: f}} = person;
+// console.log(f); // 7
+
+// const {openingHours: {mon: m = "DATA Got"}} = person;
+// console.log(m); // 8
+
+// const {openingHours: {mon: m}} = person;
+// console.log(m); // 9
+
+// const {openingHours: {fri:friday = "10AM"}} = person;
+// console.log(friday); // 10 
