@@ -460,3 +460,16 @@
 
 //   const {stack = 'MEVN', anim = "Mysterious"} = person;
 //   console.log(stack, anim); // 5
+
+const person = {
+    firstName: "Md",
+    lastName: "Juwel",
+    age: 22,
+    eyeColor: "blue",
+    hobby: "coding",
+    stack: "MERN",
+    anim: "Adventure" 
+  };
+
+  const {language = "JavaScript", fram="React.Js"} = person;
+  console.log(language, fram);
