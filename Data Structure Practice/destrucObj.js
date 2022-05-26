@@ -126,3 +126,16 @@
 
 // const {stack, anim} = person;
 // console.log(stack, anim); // 5
+
+const person = {
+    firstName: "Md",
+    lastName: "Juwel",
+    age: 22,
+    eyeColor: "blue",
+    hobby: "coding",
+    stack: "MERN",
+    anim: "Adventure" 
+  };
+
+  const {firstName, lastName, age} = person;
+  console.log(firstName, lastName, age);
