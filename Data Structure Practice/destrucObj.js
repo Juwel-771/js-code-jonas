@@ -196,3 +196,17 @@
 
 //   const {firstName, age, hobby, anim} = person;
 //   console.log(firstName, age, hobby, anim); // 10
+
+
+const person = {
+    firstName: "Md",
+    lastName: "Juwel",
+    age: 22,
+    eyeColor: "blue",
+    hobby: "coding",
+    stack: "MERN",
+    anim: "Adventure" 
+  };
+
+const {firstName, lastName, age, eyeColor} = person;
+console.log(firstName, lastName, age, eyeColor);
