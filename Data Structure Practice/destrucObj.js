@@ -393,3 +393,70 @@
 
 //   const {anim: m, hobby: b, lastName: ln} = person;
 //   console.log(m, b, ln); // 10
+
+
+// Assigning default value: == 10
+// const person = {
+//     firstName: "Md",
+//     lastName: "Juwel",
+//     age: 22,
+//     eyeColor: "blue",
+//     hobby: "coding",
+//     stack: "MERN",
+//     anim: "Adventure" 
+//   };
+
+//   const{firstName='Mr', lastName = 'Juwel'} = person;
+//   console.log(firstName, lastName); // 1
+
+// const person = {
+//     firstName: "Md",
+//     lastName: "Juwel",
+//     age: 22,
+//     eyeColor: "blue",
+//     hobby: "coding",
+//     stack: "MERN",
+//     anim: "Adventure" 
+//   };
+
+//   const {firstName: f = "Let", lastName: l = "Go"} = person;
+//   console.log(f, l); // 2
+
+// const person = {
+//     firstName: "Md",
+//     lastName: "Juwel",
+//     age: 22,
+//     eyeColor: "blue",
+//     hobby: "coding",
+//     stack: "MERN",
+//     anim: "Adventure" 
+//   };
+
+//   const {Naruto="Uzumakio"} = person;
+//   console.log(Naruto); // 3
+
+// const person = {
+//     firstName: "Md",
+//     lastName: "Juwel",
+//     age: 22,
+//     eyeColor: "blue",
+//     hobby: "coding",
+//     stack: "MERN",
+//     anim: "Adventure" 
+//   };
+
+//   const {anim = 'Naruto', hobby = 'Gaming'} = person;
+//   console.log(anim, hobby); // 4
+
+// const person = {
+//     firstName: "Md",
+//     lastName: "Juwel",
+//     age: 22,
+//     eyeColor: "blue",
+//     hobby: "coding",
+//     stack: "MERN",
+//     anim: "Adventure" 
+//   };
+
+//   const {stack = 'MEVN', anim = "Mysterious"} = person;
+//   console.log(stack, anim); // 5
