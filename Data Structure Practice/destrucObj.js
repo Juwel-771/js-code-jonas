@@ -328,3 +328,17 @@
 
 //   const {hobby: h, stack: s, anim: a} = person;
 //   console.log(h, a, s); // 5
+
+// const person = {
+//     firstName: "Md",
+//     lastName: "Juwel",
+//     age: 22,
+//     eyeColor: "blue",
+//     hobby: "coding",
+//     stack: "MERN",
+//     anim: "Adventure" 
+//   };
+
+
+//   const {firstName: f, lastName: l, age: a, eyeColor: e} = person;
+//   console.log(f, l, a, e); // 6
