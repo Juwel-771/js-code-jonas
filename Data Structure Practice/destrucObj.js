@@ -59,7 +59,7 @@
 //     mainIndex:2
 // });
 
-// Basic Syntax: 15 times
+// Basic Syntax: == 15 times
 
 // const person = {
 //     firstName: "Md",
@@ -262,3 +262,69 @@
 
 //   const {age, eyeColor, hobby, stack} = person;
 //   console.log(age, eyeColor, hobby, stack); // 15
+
+// Renaming Variable: == 10times
+// const person = {
+//     firstName: "Md",
+//     lastName: "Juwel",
+//     age: 22,
+//     eyeColor: "dark brown",
+//     hobby: "coding",
+//     stack: "MERN",
+//     anim: "Adventure" 
+//   };
+
+//   const {firstName: f, lastName: l, age: a, eyeColor:e, hobby: h, stack:s, anim: m} = person;
+//   console.log(f, l, a, e, h, s, m); // 1
+
+// const person = {
+//     firstName: "Md",
+//     lastName: "Juwel",
+//     age: 22,
+//     eyeColor: "blue",
+//     hobby: "coding",
+//     stack: "MERN",
+//     anim: "Adventure" 
+//   };
+
+//   const {firstName: f, lastName: l, age: a} = person;
+//   console.log(f, l, a); // 2
+
+// const person = {
+//     firstName: "Md",
+//     lastName: "Juwel",
+//     age: 22,
+//     eyeColor: "blue",
+//     hobby: "coding",
+//     stack: "MERN",
+//     anim: "Adventure" 
+// };
+
+// const {eyeColor: e, hobby: h, stack: s} = person;
+// console.log(e, h, s); // 3
+
+// const person = {
+//     firstName: "Md",
+//     lastName: "Juwel",
+//     age: 22,
+//     eyeColor: "blue",
+//     hobby: "coding",
+//     stack: "MERN",
+//     anim: "Adventure" 
+//   };
+
+//   const {anim: a, firstName: f, lastName: l} = person;
+//   console.log(a, f, l); // 4
+
+// const person = {
+//     firstName: "Md",
+//     lastName: "Juwel",
+//     age: 22,
+//     eyeColor: "blue",
+//     hobby: "coding",
+//     stack: "MERN",
+//     anim: "Adventure" 
+//   };
+
+//   const {hobby: h, stack: s, anim: a} = person;
+//   console.log(h, a, s); // 5
