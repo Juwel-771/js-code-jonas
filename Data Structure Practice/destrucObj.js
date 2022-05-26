@@ -1,8 +1,10 @@
-let person={
 
+let user = {
+
+    name: "john",
+    age: 30
 };
 
-let {
-    firstName: fname,
-    lastName: lname
-} = person;
+for(let [key, value] of Object.entries(user)){
+    console.log(`${key} : ${value}`);
+}
