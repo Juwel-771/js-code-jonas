@@ -60,9 +60,17 @@
 
 // joining two array
 
-const arr = [1,2,3,4,5];
-const arr2 = [6,7,8,9,10];
+// const arr = [1,2,3,4,5];
+// const arr2 = [6,7,8,9,10];
 
-const arr3 =[...arr, ...arr2];
-console.log(arr3);
-console.log(...arr3);
+// const arr3 =[...arr, ...arr2];
+// console.log(arr3);
+// console.log(...arr3);
+
+// >>>>>>>> Over-All Note <<<<<<<<<
+// 1. Constructing Array.
+// 2. Concatenating Arrays.
+// 3. Copying an Array
+// 4. Joining More than a two array.
+// 5. The spread operator unpacks elements of iterable objects such as arrays, sets, and maps into a list.
+// 6. The spread operator can be used to clone an iterable object or merge iterable objects into one.
