@@ -72,17 +72,57 @@
 //   };
 
 //   const {firstName, lastName,age} = person;
-//   console.log(firstName, lastName, age);
+//   console.log(firstName, lastName, age); // 1
 
-const person = {
-    firstName: "Md",
-    lastName: "Juwel",
-    age: 22,
-    eyeColor: "blue",
-    hobby: "coding",
-    stack: "MERN",
-    anim: "Adventure" 
-  };
+// const person = {
+//     firstName: "Md",
+//     lastName: "Juwel",
+//     age: 22,
+//     eyeColor: "blue",
+//     hobby: "coding",
+//     stack: "MERN",
+//     anim: "Adventure" 
+//   };
 
-  const {eyeColor, hobby, stack} = person;
-  console.log(eyeColor, hobby, stack);
+//   const {eyeColor, hobby, stack} = person;
+//   console.log(eyeColor, hobby, stack); // 2
+
+// const person = {
+//     firstName: "Md",
+//     lastName: "Juwel",
+//     age: 22,
+//     eyeColor: "blue",
+//     hobby: "coding",
+//     stack: "MERN",
+//     anim: "Adventure" 
+//   };
+
+// const {anim, firstName, lastName, age, eyeColor, hobby, stack} = person;
+// console.log(anim, firstName, lastName, age, eyeColor, hobby, stack); //3
+
+// const person = {
+//     firstName: "Md",
+//     lastName: "Juwel",
+//     age: 22,
+//     eyeColor: "blue",
+//     hobby: "coding",
+//     stack: "MERN",
+//     anim: "Adventure" 
+//   };
+
+
+// const {firstName, age} = person; 
+// console.log(firstName, age); // 4
+
+// const person = {
+//     firstName: "Md",
+//     lastName: "Juwel",
+//     age: 22,
+//     eyeColor: "blue",
+//     hobby: "coding",
+//     stack: "MERN",
+//     anim: "Adventure" 
+//   };
+
+// const {stack, anim} = person;
+// console.log(stack, anim); // 5
