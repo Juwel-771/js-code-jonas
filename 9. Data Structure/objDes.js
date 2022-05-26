@@ -6,20 +6,7 @@ const restaurant = {
     mainMenu: ['Pizza', 'Pasta', 'Risotto'],
   
     // ES6 enhanced object literals
-    openingHours:{
-        thu: {
-            open:12,
-            close:09,
-        },
-        mon: {
-            open: 09,
-            close: 10,
-        },
-        fri:{
-            open:12,
-            close: 09,
-        },
-    },
+   
   
     order(starterIndex, mainIndex) {
       return [this.starterMenu[starterIndex], this.mainMenu[mainIndex]];

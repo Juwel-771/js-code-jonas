@@ -534,4 +534,58 @@
 
 // console.log(f, l, a, e, h, am); // 10
 
- 
+
+// Nested of nested on Object (Destructing obj in obj in obj) ==15 times
+// const person = {
+//         firstName: "Md",
+//         lastName: "Juwel",
+//         age: 22,
+//         eyeColor: "blue",
+//         hobby: "coding",
+//         stack: "MERN",
+//         anim: "Adventure",
+//     openingHours:{
+//         thu: {
+//             open:12,
+//             close:09,
+//         },
+//         mon: {
+//             open: 09,
+//             close: 10,
+//         },
+//         fri:{
+//             open:12,
+//             close: 09,
+//         },
+//     },
+//  };
+
+//  const {openingHours: {mon}} = person;
+//  console.log(open);
+
+const person = {
+    firstName: "Md",
+    lastName: "Juwel",
+    age: 22,
+    eyeColor: "blue",
+    hobby: "coding",
+    stack: "MERN",
+    anim: "Adventure",
+openingHours:{
+    thu: {
+        open:12,
+        close:09,
+    },
+    mon: {
+        open: 09,
+        close: 10,
+    },
+    fri:{
+        open:12,
+        close: 09,
+    },
+},
+};
+
+// const {openingHours : {mon}} = person;
+// console.log(mon); // 1 
