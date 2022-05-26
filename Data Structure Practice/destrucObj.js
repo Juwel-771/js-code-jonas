@@ -342,3 +342,54 @@
 
 //   const {firstName: f, lastName: l, age: a, eyeColor: e} = person;
 //   console.log(f, l, a, e); // 6
+// const person = {
+//     firstName: "Md",
+//     lastName: "Juwel",
+//     age: 22,
+//     eyeColor: "blue",
+//     hobby: "coding",
+//     stack: "MERN",
+//     anim: "Adventure" 
+//   };
+
+//   const {hobby: h, stack: s, anim: a, firstName: f} = person;
+//   console.log(h, s, a, f); // 7
+
+// const person = {
+//     firstName: "Md",
+//     lastName: "Juwel",
+//     age: 22,
+//     eyeColor: "blue",
+//     hobby: "coding",
+//     stack: "MERN",
+//     anim: "Adventure" 
+//   };
+
+//   const {stack:s, hobby: h, anim: a, eyeColor: e, firstName: f, lastName: l} = person;
+//   console.log(s, h, a, e, f,l); // 8
+
+// const person = {
+//     firstName: "Md",
+//     lastName: "Juwel",
+//     age: 22,
+//     eyeColor: "blue",
+//     hobby: "coding",
+//     stack: "MERN",
+//     anim: "Adventure" 
+//   };
+
+//   const {age: a, hobby: h, stack: st, anim: am} = person;
+//   console.log(a, h, st, am); // 9
+
+// const person = {
+//     firstName: "Md",
+//     lastName: "Juwel",
+//     age: 22,
+//     eyeColor: "blue",
+//     hobby: "coding",
+//     stack: "MERN",
+//     anim: "Adventure" 
+//   };
+
+//   const {anim: m, hobby: b, lastName: ln} = person;
+//   console.log(m, b, ln); // 10
