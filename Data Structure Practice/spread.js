@@ -50,3 +50,19 @@
 // console.log(teamAdd);
 // console.log(...teamAdd); // 10
  
+
+// copying or cloning array
+
+// const arr = [1,2,3,4,5];
+// const arr1 = [...arr];
+// console.log(arr1);
+// console.log(...arr1)
+
+// joining two array
+
+const arr = [1,2,3,4,5];
+const arr2 = [6,7,8,9,10];
+
+const arr3 =[...arr, ...arr2];
+console.log(arr3);
+console.log(...arr3);
