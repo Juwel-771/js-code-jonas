@@ -589,3 +589,6 @@ openingHours:{
 
 // const {openingHours : {mon}} = person;
 // console.log(mon); // 1 
+
+const {openingHours: {fri}} = person;
+console.log(fri); // 2
