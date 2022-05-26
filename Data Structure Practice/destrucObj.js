@@ -590,5 +590,14 @@ openingHours:{
 // const {openingHours : {mon}} = person;
 // console.log(mon); // 1 
 
-const {openingHours: {fri}} = person;
-console.log(fri); // 2
+// const {openingHours: {fri}} = person;
+// console.log(fri); // 2
+
+// const {openingHours: {mon: m = "9am"}} = person;
+// console.log(m); // 3
+
+// const {openingHours: {wed: w="No data available"}} = person;
+// console.log(w); // 4
+
+// const {openingHours: {sun: s}} = person;
+// console.log(s); // 5
