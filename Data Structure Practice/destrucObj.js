@@ -619,3 +619,15 @@ openingHours:{
 
 // const {openingHours: {fri: {open, close}}} =person;
 // console.log(open, close); // 11
+
+// const {openingHours: {mon: {open}}} = person;
+// console.log(open); // 12
+
+// const {openingHours: {mon: {open: o = "10am"}}} = person;
+// console.log(o); // 13
+
+// const {openingHours: {mon: {close: c ="11pm"}}} = person;
+// console.log(c); // 14
+
+// const {openingHours: {thu : {open: o = "10", close:c = "11"}}} = person;
+// console.log(o,c); // 15
