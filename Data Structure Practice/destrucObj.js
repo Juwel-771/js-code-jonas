@@ -461,15 +461,77 @@
 //   const {stack = 'MEVN', anim = "Mysterious"} = person;
 //   console.log(stack, anim); // 5
 
-const person = {
-    firstName: "Md",
-    lastName: "Juwel",
-    age: 22,
-    eyeColor: "blue",
-    hobby: "coding",
-    stack: "MERN",
-    anim: "Adventure" 
-  };
+// const person = {
+//     firstName: "Md",
+//     lastName: "Juwel",
+//     age: 22,
+//     eyeColor: "blue",
+//     hobby: "coding",
+//     stack: "MERN",
+//     anim: "Adventure" 
+//   };
 
-  const {language = "JavaScript", fram="React.Js"} = person;
-  console.log(language, fram);
+//   const {language = "JavaScript", fram="React.Js"} = person;
+//   console.log(language, fram); // 6
+
+// const person = {
+//     firstName: "Md",
+//     lastName: "Juwel",
+//     age: 22,
+//     eyeColor: "blue",
+//     hobby: "coding",
+//     stack: "MERN",
+//     anim: "Adventure" 
+//   };
+
+//   const {lastName:l = 'Ahmed'} = person;
+//   console.log(l); // 7
+
+// const person = {
+//     firstName: "Md",
+//     lastName: "Juwel",
+//     age: 22,
+//     eyeColor: "blue",
+//     hobby: "coding",
+//     stack: "MERN",
+//     anim: "Adventure" 
+//   };
+
+//   const {age: a = 12} = person;
+//   console.log(a); // 8
+
+// const person = {
+//     firstName: "Md",
+//     lastName: "Juwel",
+//     age: 22,
+//     eyeColor: "blue",
+//     hobby: "coding",
+//     stack: "MERN",
+//     anim: "Adventure" 
+//   };
+
+//   const {eyeColor: e = "Dark Brown", hobby: h = "Gaming"} = person;
+//   console.log(e, h); // 9
+
+// const person = {
+//     firstName: "Md",
+//     lastName: "Juwel",
+//     age: 22,
+//     eyeColor: "blue",
+//     hobby: "coding",
+//     stack: "MERN",
+//     anim: "Adventure" 
+//   };
+
+//   const {
+//       firstName: f = "Juwel", 
+//       lastName: l = "Ahmed",
+//       age: a = 23,
+//       eyeColor: e = "Dark Brown",
+//       hobby: h = "Gaming",
+//       anim: am = "Mysterious"
+// }= person;
+
+// console.log(f, l, a, e, h, am); // 10
+
+ 
