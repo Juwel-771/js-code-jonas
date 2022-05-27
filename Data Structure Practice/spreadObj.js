@@ -121,3 +121,28 @@
 
 // const addNumber = {...number, five: 5};
 // console.log(addNumber); // 7
+
+// const number = {
+//     letter: "one",
+//     letter2: "two",
+//     letter3: "three"
+// };
+// const addNumber = {...number, letter4: "four"};
+// console.log(addNumber); // 8
+
+// const object = {
+//     club:"Barcelona",
+//     estd: 1890,
+//     president: "Laporta",
+//     value: "1.90 billion"
+// };
+
+// const addValue = {...object, starPlayer: "Messi"};
+// console.log(addValue); // 9
+
+// const obj = {
+//     estd: 100,
+//     non: 239
+// };
+// const addData = {...obj, name:"Barcelona"};
+// console.log(addData);
