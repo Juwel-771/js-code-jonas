@@ -145,4 +145,19 @@
 //     non: 239
 // };
 // const addData = {...obj, name:"Barcelona"};
-// console.log(addData);
+// console.log(addData); // 10
+
+// Joining two array
+
+const obj1 = {
+    a: 1,
+    b: 2,
+}
+
+const obj2 ={
+    c: 3, 
+    d: 4
+}
+
+const merge = {...obj1, ...obj2};
+console.log(merge);
