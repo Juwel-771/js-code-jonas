@@ -241,4 +241,19 @@
 
 // const clone = {...obj};
 // console.log(clone); // 3
+
+// const obj = {
+//     name: "Juwel",
+//     id: 382
+// }
+
+// const clone = {...obj};
+// console.log(clone); // 4
     
+// const obj = {
+//     name: "Juwel",
+//     lastName: "Ahmed"
+// }
+
+// const clone = {...obj};
+// console.log(clone); // 5
