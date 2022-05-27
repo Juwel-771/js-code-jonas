@@ -103,3 +103,21 @@
 
 // const addData = {...obj,lastName: "Ahmed"};
 // console.log(addData); // 5 
+
+// const number = {
+//     one: 1,
+//     two: 2,
+//     three: 3
+// }
+
+// const addNumber = {...number, four: 4};
+// console.log(addNumber); // 6
+
+// const number = {
+//     one: 1,
+//     two: 2, 
+//     three: 3
+// }
+
+// const addNumber = {...number, five: 5};
+// console.log(addNumber); // 7
