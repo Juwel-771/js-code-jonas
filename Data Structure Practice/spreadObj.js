@@ -214,3 +214,31 @@
 // }
 // const doubleMerge = {...obj, ...obj2};
 // console.log(doubleMerge); // 5
+
+// Cloning Object
+
+// const obj = {
+//     a: 80,
+//     b: 70
+// }
+
+// const cloneObj = {...obj};
+// console.log(cloneObj); // 1
+
+// const obj = {
+//     name: 'Md Juwel',
+//     id: 382
+// }
+
+// const clone = {...obj};
+// console.log(clone); // 2
+
+// const obj = {
+//     firstName: "Juwel",
+//     lastName: "Ahmed",
+//     id: 382
+// }
+
+// const clone = {...obj};
+// console.log(clone); // 3
+    
