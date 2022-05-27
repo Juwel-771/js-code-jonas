@@ -58,16 +58,48 @@
 // console.log(blueSquare);
 
 
-const obj = {
-    a: 23,
-    b: 25,
-    c: 26
-}
+// const obj = {
+//     a: 23,
+//     b: 25,
+//     c: 26
+// }
+// const addData = {...obj, g:49};
+// console.log(addData); // 1
 
-const obj2 = {
-    e: 54,
-    f: 56
-}
+// const obj = {
+//     a: 2,
+//     b: 3,
+//     c: {
+//         d: 5,
+//         e: 4
+//     }
+// };
 
-const addData = {...obj, g:49};
-console.log(addData);
+// const addData = {...obj,c:{f: 99}};
+// console.log(addData); // 2
+
+// const obj = {
+//     a: "Md",
+//     b: "Juwel",
+//     c: "Ahmed"
+// };
+
+// const data = {...obj};
+// console.log(data); // 3
+
+
+// const obj = {
+//     a: 12,
+//     b: 13,
+//     c: 14
+// };
+// const addData = {...obj, d: 'Non0'};
+// console.log(addData); // 4 
+
+// const obj = {
+//     name : "Md",
+//     common_Name: "Juwel"
+// };
+
+// const addData = {...obj,lastName: "Ahmed"};
+// console.log(addData); // 5 
