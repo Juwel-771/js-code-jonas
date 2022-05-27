@@ -149,15 +149,68 @@
 
 // Joining two array
 
-const obj1 = {
-    a: 1,
-    b: 2,
-}
+// const obj1 = {
+//     a: 1,
+//     b: 2,
+// }
 
-const obj2 ={
-    c: 3, 
-    d: 4
-}
+// const obj2 ={
+//     c: 3, 
+//     d: 4
+// }
 
-const merge = {...obj1, ...obj2};
-console.log(merge);
+// const merge = {...obj1, ...obj2};
+// console.log(merge); // 1
+
+// const obj1 = {
+//     a: 1,
+//     b:2
+// }
+
+// const obj2 = {
+//     c: 1,
+//     a: 1
+// }
+
+// const merge = {...obj1, ...obj2};
+
+// console.log(merge); // 2
+
+// const obj1 = {
+//     name: "Md",
+//     commonName: "Juwel"
+// }
+
+// const obj2 = {
+//     firstName: "Md",
+//     lastName: "Juwel"
+// }
+
+// const double = {...obj1, ...obj2};
+// console.log(double); // 3
+
+// const school = {
+//     name: "Rahmania High School",
+//     college: "City Corporation College" 
+// }
+
+// const versity = {
+//     versity: "Port City International University"
+// }
+
+// const merge = {...school, ...versity};
+
+// console.log(merge); // 4
+
+
+// const obj = {
+//     a: 90,
+//     b: 80
+// }
+
+// const obj2 = {
+//     m: 80,
+//     n: 50
+// }
+// const doubleMerge = {...obj, ...obj2};
+// console.log(doubleMerge); // 5
