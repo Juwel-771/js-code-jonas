@@ -43,16 +43,31 @@
 
 // console.log(merge);
 
-const blueSquare = {
-    length: 100,
-    color: 'blue'
-};
+// const blueSquare = {
+//     length: 100,
+//     color: 'blue'
+// };
 
-Object.defineProperty(blueSquare, 'color', {
-    value: 'blue',
-    enumerable: true,
-    writable: false
+// Object.defineProperty(blueSquare, 'color', {
+//     value: 'blue',
+//     enumerable: true,
+//     writable: false
 
-});
+// });
 
-console.log(blueSquare);
+// console.log(blueSquare);
+
+
+const obj = {
+    a: 23,
+    b: 25,
+    c: 26
+}
+
+const obj2 = {
+    e: 54,
+    f: 56
+}
+
+const addData = {...obj, g:49};
+console.log(addData);
