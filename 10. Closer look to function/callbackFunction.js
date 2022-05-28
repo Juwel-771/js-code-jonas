@@ -18,3 +18,15 @@ const transform = function(str, fn){
 
 transform('JavaScript is the Best',upperWord);
 transform('JavaScript is the Best', oneWord);
+
+
+function Display(fnc){
+    console.log(`your result is: ${fnc}`);
+}
+
+function calculation(num1, num2, Display){
+    let sum = num1 + num2;
+    Display(sum);
+}
+
+calculation(5,5, Display);
