@@ -28,3 +28,10 @@ const array = ['a', 'b'];
 const elements = [0, 1, 2];
 array.push.apply(array, elements);
 console.info(array);
+
+const number = [25,36,23,54,77];
+let max = Math.max.apply(null, number);
+console.log(max);
+
+let min = Math.min.apply(null, number);
+console.log(min);
