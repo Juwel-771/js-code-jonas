@@ -25,10 +25,10 @@ movements.forEach(function(mov, index, array){
 })
 
 // 5 times practice 
-const arr = [1,2,3,4,5,6,7];
-arr.forEach(function(value, index, array){
-    console.log("The value, index and arr")
-    console.log(value);
-    console.log(index);
-    console.log(array);
-});
+// const arr = [1,2,3,4,5,6,7];
+// arr.forEach(function(value, index, array){
+//     console.log("The value, index and arr")
+//     console.log(value);
+//     console.log(index);
+//     console.log(array);
+// });
