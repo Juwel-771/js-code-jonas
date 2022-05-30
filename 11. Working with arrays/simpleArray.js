@@ -28,3 +28,4 @@ const twoArr = [...arr, ...arr2];
 console.log(twoArr);
 
 // JOIN METHOD.
+console.log(doubleArr.join(' -> '));
