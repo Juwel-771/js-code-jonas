@@ -23,3 +23,12 @@ movements.forEach(function(mov, index, array){
         console.log(`Movement: ${index+1}. Your withdraw: ${Math.abs(mov)}`);
     }
 })
+
+// 5 times practice 
+const arr = [1,2,3,4,5,6,7];
+arr.forEach(function(value, index, array){
+    console.log("The value, index and arr")
+    console.log(value);
+    console.log(index);
+    console.log(array);
+});
