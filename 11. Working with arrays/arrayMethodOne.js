@@ -54,6 +54,8 @@
 
 // console.log(text);
 
+
+// CopyWithin() method
 // const fruits = ["Banana", "Orange", "Apple", "Mango"];
 // const newArr = fruits.copyWithin(0, 2);
 // console.log(newArr); // 1
@@ -93,3 +95,37 @@
 // const fruits = ["Banana", "Orange", "Apple", "Mango", "Pineapple", "Blackberry","Strawberry"];
 // const myApple = fruits.copyWithin(2,3,4);
 // console.log(myApple); // 10
+
+
+// entries method
+// const fruits = ["Banana", "Orange", "Apple", "Mango", "Pineapple", "Blackberry","Strawberry"];
+// const fruitss = fruits.entries();
+// console.log(fruitss);
+
+// for(x of fruitss){
+//     console.log(x); 
+// } // 1
+
+// const fruits = ["Banana", "Orange", "Apple", "Mango"];
+// const entr = fruits.entries();
+
+// for(const element of entr){
+//     console.log(element);
+// } // 2
+
+
+// const fruits = ["Banana", "Orange", "Apple", "Mango"];
+// const elememt = fruits.entries();
+
+// for(const [index, value] of elememt){
+//     console.log(index);
+//     console.log(value);
+// } // 3
+
+const fruits = ["Banana", "Orange", "Apple", "Mango"];
+const element = fruits.entries();
+console.log(element);
+
+for(const [i, value] of element){
+    console.log(i, value);
+}
