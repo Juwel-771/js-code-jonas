@@ -192,3 +192,97 @@
 // console.log(arr1.every(isBigEnough));
 // console.log(arr2.every(isBigEnough)); //2
 
+// Fill method 
+// const fruits = ["Banana", "Orange", "Apple", "Mango"];
+// const fillMethod = fruits.fill('Kiwi');
+
+// console.log(fillMethod); // 1
+
+// const fruits = ["Banana", "Orange", "Apple", "Mango"];
+// const fillMehod = fruits.fill('Jakefruits', 2,5);
+// console.log(fillMehod); // 2
+
+// const fruits = ["Banana", "Orange", "Apple", "Mango"];
+// const fillMethod = fruits.fill('Banana', 2);
+// console.log(fillMethod); // 3
+
+// const fruits = ["Banana", "Orange", "Apple", "Mango"];
+// const fillMehod = fruits.fill('Pineapple', 2, 3);
+// console.log(fillMehod); // 4
+
+// const fruits = ["Banana", "Orange", "Apple", "Mango"];
+// const fillMethod = fruits.fill('Pineapple', 3);
+// console.log(fillMethod); // 5
+
+// const fruits = ["Banana", "Orange", "Apple", "Mango"];
+// const fillMethod = fruits.fill("pineapple", 3,6);
+// console.log(fillMethod); // 6
+
+// const fruits = ["Banana", "Orange", "Apple", "Mango"];
+// const fillMethod = fruits.fill('pineapple', 'Strawberry', 3);
+// console.log(fillMethod); // 7 doesn't work
+
+// const fruits = ["Banana", "Orange", "Apple", "Mango"];
+// const fillMethod = fruits.fill("Pineapple", 2);
+// console.log(fillMethod); // 8
+
+// const fruits = ["Banana", "Orange", "Apple", "Mango"];
+// const fillMethod = fruits.fill("Pineapple",2).length;
+// console.log(fillMethod); // 9
+
+// const fruits = ["Banana", "Orange", "Apple", "Mango"];
+// const fillMethod = fruits.fill("AppleOR",0,4);
+// console.log(fillMethod); // 10
+
+// Filter Method
+
+// const words = ['spray', 'limit', 'elite', 'exuberant', 'destruction', 'present'];
+// const red = words.filter(function(filt){
+//     let wrd = filt.length > 8;
+//     return wrd;
+// })
+
+
+// console.log(red); // 1
+
+// const arr = [12,34,54,6,7,8,10];
+
+// const filteredItem = arr.filter(function(item){
+//     let filterItem = item >= 10;
+//     return filterItem;
+// });
+
+// console.log(filteredItem); // 2
+
+// const arr = [12,34,54,6,7,8,10];
+
+// const filteredItem = arr.filter(function(item, index, array){
+//     console.log(item);
+//     console.log(index);
+//     console.log(array);
+// })  // 3
+
+// const array = [-3, -2, -1, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13];
+
+// function isPrime(num){
+//     for(let i = 2; num > i; i++){
+//         if(num % i == 0){
+//             return false;
+//         }
+//     }
+
+//     return num > 1;
+// }
+
+// let primeNumber = array.filter(isPrime);
+// console.log(primeNumber); // 4
+
+// const marks = [12,45,67,34,78,23,99,30];
+
+// const passMark = marks.filter(function(mark){
+//     return mark > 33;
+// })
+
+// console.log(`Student Pass Marks: $passMark}`); // 5
+
+
