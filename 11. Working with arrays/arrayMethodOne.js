@@ -173,3 +173,22 @@
 //     console.log(value);
 //     console.log(index);
 // } // 10
+
+// every method
+
+// const number = [1,2,3];
+// number.every(function(index){
+//     let age =0;
+//     console.log(age > 4);
+// }); // 1
+
+// function isBigEnough(element, index, array){
+//     return element > 10;
+// }
+
+// const arr1 = [1,2,3,4,5];
+// const arr2 = [42,12,34,15];
+
+// console.log(arr1.every(isBigEnough));
+// console.log(arr2.every(isBigEnough)); //2
+
