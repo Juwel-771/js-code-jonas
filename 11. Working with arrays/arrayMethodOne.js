@@ -64,4 +64,32 @@
 
 // const fruits = ["Banana", "Orange", "Apple", "Mango", "Pineapple", "Blackberry","Strawberry"];
 // const fruitsArr = fruits.copyWithin(2,5,7);
-// console.log(fruitsArr);
+// console.log(fruitsArr); // 3
+
+// const fruits = ["Banana", "Orange", "Apple", "Mango", "Pineapple", "Blackberry","Strawberry"];
+// const fruitMiddle = fruits.copyWithin(0, 4);
+// console.log(fruitMiddle); // 4
+
+// const fruits = ["Banana", "Orange", "Apple", "Mango", "Pineapple", "Blackberry","Strawberry"];
+// const newFruit = fruits.copyWithin(0, 2, 5);
+// console.log(newFruit); // 5
+
+// const fruits = ["Banana", "Orange", "Apple", "Mango", "Pineapple", "Blackberry","Strawberry"];
+// const newFruit = fruits.copyWithin(0, 2, 4);
+// console.log(newFruit); // 6
+
+// const fruits = ["Banana", "Orange", "Apple", "Mango", "Pineapple", "Blackberry","Strawberry"];
+// const myFruits = fruits.copyWithin(2,2,2);
+// console.log(myFruits); // 7
+
+// const fruits = ["Banana", "Orange", "Apple", "Mango", "Pineapple", "Blackberry","Strawberry"];
+// const ourFruits = fruits.copyWithin(fruits);
+// console.log(ourFruits); // 8
+
+// const fruits = ["Banana", "Orange", "Apple", "Mango", "Pineapple", "Blackberry","Strawberry"];
+// const inFruits = fruits.copyWithin(1,3,4);
+// console.log(inFruits); // 9
+
+// const fruits = ["Banana", "Orange", "Apple", "Mango", "Pineapple", "Blackberry","Strawberry"];
+// const myApple = fruits.copyWithin(2,3,4);
+// console.log(myApple); // 10
