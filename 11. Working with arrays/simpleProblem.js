@@ -4,3 +4,4 @@ const mathI = function(number){
 }
 
 mathI(5);
+
