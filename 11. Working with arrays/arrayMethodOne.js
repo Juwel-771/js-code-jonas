@@ -122,10 +122,54 @@
 //     console.log(value);
 // } // 3
 
-const fruits = ["Banana", "Orange", "Apple", "Mango"];
-const element = fruits.entries();
-console.log(element);
+// const fruits = ["Banana", "Orange", "Apple", "Mango"];
+// const element = fruits.entries();
+// console.log(element);
 
-for(const [i, value] of element){
-    console.log(i, value);
-}
+// for(const [i, value] of element){
+//     console.log(i, value);
+// } // 4
+
+
+// const fruits = ["Banana", "Orange", "Apple", "Mango"];
+
+// for(const [index, value] of fruits.entries()){
+//     console.log(index);
+//     console.log(value);
+// } // 5
+
+// const fruits = ["Banana", "Orange", "Apple", "Mango"];
+
+// fruits.entries(function(index, value){
+//     console.log(index);
+//     console.log(value);
+// }); // 6 -> doesn't work
+
+// const fruits = ["Banana", "Orange", "Apple", "Mango"];
+// const variable = fruits.entries();
+
+// for(const [i,v] of variable){
+//     console.log(i);
+//     console.log(v);
+// } // 7
+
+// const fruits = ["Banana", "Orange", "Apple", "Mango"];
+// const methodOne = fruits.entries();
+// for(const [i, v] of methodOne){
+//     console.log(i);
+//     console.log(v);
+// } // 8
+
+// const fruits = ["Banana", "Orange", "Apple", "Mango"];
+// const methodTwo = fruits.entries();
+// for(const [index, value] of methodTwo){
+//     console.log(index, value);
+// } // 9
+
+// const fruits = ["Banana", "Orange", "Apple", "Mango"];
+// const newFruit = fruits.entries();
+
+// for(const [value, index] of newFruit){
+//     console.log(value);
+//     console.log(index);
+// } // 10
