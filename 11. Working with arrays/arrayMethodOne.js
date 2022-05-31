@@ -48,3 +48,20 @@
 // const theLast = ['Boruto'];
 // const last = ['Naruto'];
 // const newARR = theLast.concat(last); // 10
+
+// const fruits = ["Banana", "Orange", "Apple", "Mango"];
+// let text = fruits.constructor;
+
+// console.log(text);
+
+// const fruits = ["Banana", "Orange", "Apple", "Mango"];
+// const newArr = fruits.copyWithin(0, 2);
+// console.log(newArr); // 1
+
+// const name = ['j','u','w','e','l'];
+// name.copyWithin(0, 4);
+// console.log(name); // 2
+
+// const fruits = ["Banana", "Orange", "Apple", "Mango", "Pineapple", "Blackberry","Strawberry"];
+// const fruitsArr = fruits.copyWithin(2,5,7);
+// console.log(fruitsArr);
