@@ -285,4 +285,235 @@
 
 // console.log(`Student Pass Marks: $passMark}`); // 5
 
+// Find method added
+// const array1 = [5, 12, 8, 130, 44];
+// const found = array1.find(function(element){
+//     return element > 10;
+// })
 
+// console.log(found);  // 1
+
+// const fruit = [
+//     {name: 'apples', quantity: 2},
+//     {name: 'bananas', quantity: 5},
+//     {name: 'cherries', quantity: 8},
+// ];
+
+// const findFruit = fruit.find(function(isCherries){
+//     return isCherries.name == 'cherries'
+// });
+
+// console.log(findFruit); // 2
+
+// const fruit = [
+//     {name: 'Mango', quantity: 2},
+//     {name: 'Bananas', quantity: 5},
+//     {name: 'Cherries', quantity: 9},
+//     {name: 'Jakefruits', quantity: 3},
+//     {name: 'Guava', quantity: 7},
+// ];
+
+// const checkFruit = fruit.find(function(isFruitAvailable){
+//     return isFruitAvailable.name == 'Guava';
+// });
+
+// console.log(checkFruit); // 3
+
+// findIndex method
+
+// function isPrime(num){
+//     for(let i = 2; num > i; i++){
+//         if(num % i == 0){
+//             return false;
+//         }
+//     }
+
+//     return num > 1;
+// } // 1
+
+// const number = [4, 6, 8, 9, 12];
+// const checkPrime = number.findIndex(isPrime);
+// console.log(checkPrime);
+
+// const arrNumber = [4,6,8,10,12];
+// const findNumber = arrNumber.findIndex(function(number){
+//     return number > 6;
+// });
+
+// console.log(findNumber); // 2
+
+// const arrNumber = [4,6,8,10,12];
+// const findNumber = arrNumber.findIndex(function(number){
+//     return number > 6;
+// });
+
+// console.log(findNumber);
+// console.log(arrNumber[findNumber]); // 3
+
+// forEach function
+// const arr = [1,2,3,4,5];
+// const iterate = arr.forEach(function(element, index, array){
+//     console.log(element);
+//     console.log(index);
+//     // console.log(element);
+//     console.log(`Element: ${element} Index: ${index}`);
+// }) // 1
+
+// const obj = ['item1', 'item2', 'item3'];
+// const copyItem = [];
+// obj.forEach(function(item){
+//     copyItem.push(item);
+// })
+
+// console.log(copyItem);
+
+// from method
+
+// const arr = ('juwel');
+// console.log(Array.from(arr));
+
+// const set = new Set(['foo', 'bar', 'baz', 'foo']);
+// const newArr = Array.from(set);
+// console.log(newArr);
+
+// include method
+
+// const obj = ['car', 'bike','robot','track'];
+// console.log(obj.includes('car'));
+
+// const obj = ['a', 'b', 'c'];
+
+// console.log(obj.includes('a',-100));
+// console.log(obj.includes('b',-60));
+// console.log(obj.includes('c',45));
+
+// index method
+
+// const arr = [1,2,3,4,5,6,7,8,9];
+// const indexElement  = arr.indexOf(5);
+// console.log(indexElement);
+
+// isArray 
+// const arr = [1,2,3,4];
+// const check = Array.isArray(arr); 
+// console.log(check);
+
+// join method
+// const arr = ['Md','Juwel','Ahmed'];
+// const newArr = arr.join("-");
+// console.log(newArr);
+
+// const arr1 = ['Md','Juwel','Ahmed'];
+// console.log(arr1.join('<->'));
+
+// keys method
+
+// const obj = ['md', 'juwel', 'ahmed'];
+
+// const key = Object.keys(obj);
+// console.log(key);
+
+// const numbers = [2, 5, 9, 2];
+// console.log(numbers.lastIndexOf(2));     // 3
+// console.log(numbers.lastIndexOf(7));     // -1
+// console.log(numbers.lastIndexOf(2, 3));  // 3
+// console.log(numbers.lastIndexOf(2, 2));  // 0
+// console.log(numbers.lastIndexOf(2, -2)); // 0
+// console.log(numbers.lastIndexOf(2, -1)); // 3
+
+// map method
+
+// const arr = [1,2,3,4,5,6];
+// const newMap = arr.map(function(elements){
+//     return elements * 4;
+// })
+
+// console.log(newMap);
+// const kvArray = [{ key: 1, value: 10 },
+//     { key: 2, value: 20 },
+//     { key: 3, value: 30 }];
+
+// const reformattedArray = kvArray.map(({ key, value}) => ({ [key]: value }));
+// console.log(reformattedArray);
+
+// pop method
+// const arr = [12,14,16,18,20];
+// arr.pop();
+// console.log(arr);
+
+// push method
+// const arr = [12,14,16,17];
+// arr.push(20);
+// console.log(arr);
+
+// let vegetables = ['parsnip', 'potato']
+// let moreVegs = ['celery', 'beetroot']
+
+// // Merge the second array into the first one
+// vegetables.push(...moreVegs);
+
+// console.log(vegetables) 
+
+// reverse method
+
+// const name = ['Ahmed', 'Juwel', 'Md'];
+// name.reverse();
+// console.log(name);
+
+// shift array 
+// const fruits = ["Banana", "Orange", "Apple", "Mango"];
+// fruits.shift();
+// console.log(fruits);
+
+// const fruits = ["Banana", "Orange", "Apple", "Mango", "Pineapple"];
+// const newFruit= fruits.slice(2);
+// console.log(newFruit);
+
+// const fruits = ["Banana", "Orange", "Apple", "Mango", "Pineapple"];
+// const newFruit = fruits.slice(3,4);
+// console.log(newFruit);
+
+// some method
+
+// const arr = [12,23,45,65,67];
+// const check = arr.some(function(value){
+//     return value > 19;
+// })
+
+// console.log(check);
+
+// const arr = [2, 5, 8, 1, 4];
+// console.log(arr.some(x => x > 10));  // false
+
+// const arr = [2, 5, 8, 1, 4];
+// arr.sort();
+// console.log(arr);
+
+
+// const obj = ["z", "a", "c","b"];
+// obj.sort();
+// console.log(obj);
+
+// splice method
+
+// const fruits = ["Banana", "Orange", "Apple", "Mango"];
+// fruits.splice(2, 0, "Jakefruit", "Kiwi","Pineapple","Strawberry");
+// console.log(fruits);
+
+// const indexFruit = fruits.indexOf("Jakefruit");
+// console.log(indexFruit);
+
+// fruits.splice(2,2);
+// console.log(fruits);
+
+const fruits = ["Banana", "Orange", "Apple", "Mango"];
+fruits.toString();
+console.log(fruits);
+
+// unshift method
+fruits.unshift("Lemon","Pineapple");
+console.log(fruits);
+
+// value of 
+const myArray = fruits.valueOf();
+console.log(myArray);
