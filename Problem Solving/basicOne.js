@@ -38,4 +38,10 @@ function myFunction(a){
     return result;
 }
 
-console.log("Juwel");
+
+// let a = "Juwel"
+// let len = a.length;
+// let divide = Math.abs(len / 2);
+// let result = a.slice(0,divide);
+
+console.log(myFunction("JUWELL"));
