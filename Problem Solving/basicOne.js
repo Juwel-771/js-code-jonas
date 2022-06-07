@@ -30,18 +30,46 @@
 
 // console.log(myFunction("Ahmed"));
 
-function myFunction(a){
-    let len = a.length;
-    let divide = Math.abs(len / 2);
-    let result = a.slice(0,divide);
+// function myFunction(a){
+//     let len = a.length;
+//     let divide = Math.abs(len / 2);
+//     let result = a.slice(0,divide);
 
-    return result;
+//     return result;
+// }
+
+// console.log(myFunction("JUWELL"));
+
+// function myFunction(a){
+//     let strSlice = a.slice(0,-3);
+
+//     return strSlice;
+// }
+
+// let result = myFunction("ZUBAIYER");
+// console.log(result);
+
+// function percentage(num, per)
+// {
+//   return (num/100)*per;
+// }
+          
+// console.log(percentage(10, 1));
+
+// function myFunction (a, b, c, d, e, f){
+//     //let result = Math.pow((((a+b)-c)*d)/e, f);
+//     //let power = Math.pow(result, f);
+
+//     return Math.pow((((a+b)-c)*d)/e, f);;
+// }
+// console.log(myFunction(6,5,4,3,2,1));
+
+function myFunction(a){
+    if(a % 2 == 0){
+        return true;
+    }else{
+        return false;
+    }
 }
 
-
-// let a = "Juwel"
-// let len = a.length;
-// let divide = Math.abs(len / 2);
-// let result = a.slice(0,divide);
-
-console.log(myFunction("JUWELL"));
+console.log(myFunction(10));
